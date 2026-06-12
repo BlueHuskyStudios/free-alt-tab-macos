@@ -17,3 +17,7 @@ Support the original creator, [lwouis](https://github.com/lwouis):
 If any of those links no longer work, you might find [the up-to-date funding information at the original repo](https://github.com/lwouis/alt-tab-macos/blob/master/.github/FUNDING.yml).
 
 Questions, comments, and concerns about this specific fork may be directed to Ky: FreeAltTab@KyNorthstar.me
+
+---
+
+And to Louis Pontoise, if you're reading this, thank you so much for such a long-maintained codebase! It's a great foundation for this project, and it shows your passion for crafting great AppKit apps. If you'd like me to change the name, icon, or any other IP aspects of this fork, please reach out to me directly; I want this to be a friendly project.
