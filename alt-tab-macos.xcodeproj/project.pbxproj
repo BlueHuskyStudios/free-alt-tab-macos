@@ -461,7 +461,6 @@
 		5FBB24D22F389A0400BF7E14 /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
 		5FC0B4352F8F6ECB00DCC310 /* changelog.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = changelog.md; sourceTree = "<group>"; };
 		5FC0B4362F8F6EE500DCC310 /* frontpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frontpage.jpg; sourceTree = "<group>"; };
-		5FC0B4372F8F6EE500DCC310 /* jetbrains.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = jetbrains.svg; sourceTree = "<group>"; };
 		5FC0B4382F8F6F6D00DCC310 /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		5FC0B4392F8F6F6D00DCC310 /* profile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = profile.sh; sourceTree = "<group>"; };
 		5FC0B43A2F8F6F6D00DCC310 /* run.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run.sh; sourceTree = "<group>"; };
@@ -1590,7 +1589,6 @@
 			isa = PBXGroup;
 			children = (
 				5FC0B4362F8F6EE500DCC310 /* frontpage.jpg */,
-				5FC0B4372F8F6EE500DCC310 /* jetbrains.svg */,
 				D04BAADF01EB8FF8A15AECC6 /* acknowledgments.md */,
 				D04BA812B8DCB915B8F4B915 /* contributors.md */,
 				D04BA18B55AA6C9EE41985D0 /* contributing.md */,
