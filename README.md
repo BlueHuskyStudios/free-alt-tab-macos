@@ -1,7 +1,7 @@
 
 # This repo is a fork!
 
-Starting 2026-06-11, Ky forked the original repo to make this one.
+Starting 2026-06-11, Ky forked the original repo to make this one. Where permitted, Ky's changes fall under [The Fair License](./LICENSE-Ky.txt).
 The details of future changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
 If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: free-alt-tab-macos@KyNorthstar.me
 

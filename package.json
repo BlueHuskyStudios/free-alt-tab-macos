@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "alt-tab-macos",
-  "version": "1.0.0",
+  "name": "free-alt-tab-macos",
+  "version": "2026.06.11",
   "author": "",
-  "license": "MIT",
+  "license": "(Fair License OR GPL-3.0)",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",

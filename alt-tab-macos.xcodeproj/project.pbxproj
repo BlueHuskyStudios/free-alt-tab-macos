@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091A93542FDB9B82007A3169 /* LICENSE-Ky.txt in Resources */ = {isa = PBXBuildFile; fileRef = 091A93532FDB9B82007A3169 /* LICENSE-Ky.txt */; };
+		091A93552FDB9B87007A3169 /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = D04BA459034C1885CA43A807 /* LICENCE.md */; };
 		1C96101BC5817A7F85FA1F8D /* titles_show_running_applications_light@2x.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1C961F57248D4E2377A9038E /* titles_show_running_applications_light@2x.heic */; };
 		1C96108A0CB2565233FE100B /* TableGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C961FB3DCF4906FEEF4A23D /* TableGroupView.swift */; };
 		1C9610F8AF7AD8CA53B62913 /* titles_hide_status_icons_light@2x.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1C961E64CF8FB6E3FDAA3DAA /* titles_hide_status_icons_light@2x.heic */; };
@@ -345,6 +347,7 @@
 
 /* Begin PBXFileReference section */
 		02540420CE27E6C973652426 /* menubar-0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menubar-0.pdf"; sourceTree = "<group>"; };
+		091A93532FDB9B82007A3169 /* LICENSE-Ky.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "LICENSE-Ky.txt"; sourceTree = "<group>"; };
 		126D5AA615CEE89F73C22DA7 /* menubar-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menubar-1.pdf"; sourceTree = "<group>"; };
 		1C961003A0D16B9AE3932B3F /* thumbnails_show_colored_circles_light@2x.heic */ = {isa = PBXFileReference; lastKnownFileType = image.heic; path = "thumbnails_show_colored_circles_light@2x.heic"; sourceTree = "<group>"; };
 		1C9610B2E76F1E429C8D3660 /* titles_show_running_windows_light@2x.heic */ = {isa = PBXFileReference; lastKnownFileType = image.heic; path = "titles_show_running_windows_light@2x.heic"; sourceTree = "<group>"; };
@@ -630,7 +633,7 @@
 		D04BA7F8F1F44D5D9844BFF5 /* ar */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ar; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D04BA812B8DCB915B8F4B915 /* contributors.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = contributors.md; sourceTree = "<group>"; };
 		D04BA8209A337A2960716E3B /* zh-CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = "zh-CN"; path = Localizable.strings; sourceTree = "<group>"; };
-		D04BA82F792DF53958D92572 /* AltTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04BA82F792DF53958D92572 /* FreeAltTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeAltTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04BA84F172AE89F210CA01D /* Pipfile.lock */ = {isa = PBXFileReference; lastKnownFileType = file.lock; path = Pipfile.lock; sourceTree = "<group>"; };
 		D04BA8AC77465E1B2BC947CF /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		D04BA8DB8AA7E5570DAC568A /* Sysctl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sysctl.swift; sourceTree = "<group>"; };
@@ -1165,12 +1168,13 @@
 				D04BA1A461BBB5A9BE15E015 /* Products */,
 				D04BAD40CE2D3A8AAC3819D0 /* .gitignore */,
 				D04BA0E1C5DBC07108AC2F54 /* README.md */,
+				D04BA459034C1885CA43A807 /* LICENCE.md */,
+				091A93532FDB9B82007A3169 /* LICENSE-Ky.txt */,
 				D04BAD1F5F5D4427DEA16682 /* docs */,
 				D04BA1D80F4EEF2A91BAD29C /* release.config.js */,
 				D04BAC02D60EF22D9CC7D969 /* commitlint.config.js */,
 				D04BA4336B6004A0A99849AD /* package.json */,
 				D04BA703DCD38D9757093312 /* scripts */,
-				D04BA459034C1885CA43A807 /* LICENCE.md */,
 				D04BA2C9EF33A646D0977195 /* .github */,
 				4807A6C423A9CD190052A53E /* Frameworks */,
 				D04BAAF760E3A8A22BDA84D6 /* appcast.xml */,
@@ -1202,7 +1206,7 @@
 		D04BA1A461BBB5A9BE15E015 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D04BA82F792DF53958D92572 /* AltTab.app */,
+				D04BA82F792DF53958D92572 /* FreeAltTab.app */,
 				BF0C832DEED422648209CCD2 /* unit-tests.xctest */,
 			);
 			name = Products;
@@ -1652,7 +1656,7 @@
 			);
 			name = "alt-tab-macos";
 			productName = "alt-tab-macos";
-			productReference = D04BA82F792DF53958D92572 /* AltTab.app */;
+			productReference = D04BA82F792DF53958D92572 /* FreeAltTab.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1733,6 +1737,7 @@
 				D04BA9557A6C9E192D228150 /* InfoPlist.strings in Resources */,
 				D04BA3744F48116DF4252B19 /* Localizable.strings in Resources */,
 				D04BA40CC1415DA69CCE5D89 /* InfoPlist.strings in Resources */,
+				091A93552FDB9B87007A3169 /* LICENCE.md in Resources */,
 				D04BAAF7ACC3B361FBBF52AA /* Localizable.strings in Resources */,
 				D04BA2D8099594E1593EC8EF /* InfoPlist.strings in Resources */,
 				D04BA0DD6819010987B578D1 /* Localizable.strings in Resources */,
@@ -1751,6 +1756,7 @@
 				D04BA7B9421871EDBD58F4E3 /* Localizable.strings in Resources */,
 				D04BA530F00E5989D66C6A1F /* contributors.md in Resources */,
 				D04BAFB217F9F8E58C3B09AD /* InfoPlist.strings in Resources */,
+				091A93542FDB9B82007A3169 /* LICENSE-Ky.txt in Resources */,
 				D04BA6840A558A00A66CE135 /* Localizable.strings in Resources */,
 				BF0C852D28E458CDD6FA3E44 /* app.icns in Resources */,
 				BF0C853B271C4407E87FA183 /* InfoPlist.strings in Resources */,
