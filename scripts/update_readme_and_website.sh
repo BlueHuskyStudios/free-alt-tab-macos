@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Starting 2026-06-11, Ky forked the original repo to make this one.
+# The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+# If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 set -exu
 
 github_api_request() {
@@ -31,8 +35,8 @@ update_developer_contributors() {
 ## [Developed Ky's fork](https://github.com/BlueHuskyStudios/free-alt-tab-macos/graphs/contributors)
 
 Starting 2026-06-11, Ky forked the original repo to make this one.
-The details of future changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
-If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: free-alt-tab-macos@KyNorthstar.me
+The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
 EOF
     echo
     github_contributors

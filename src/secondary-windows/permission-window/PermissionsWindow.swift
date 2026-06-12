@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 class PermissionsWindow: NSWindow {
@@ -33,7 +37,7 @@ class PermissionsWindow: NSWindow {
     }
 
     private func setupWindow() {
-        title = NSLocalizedString("AltTab needs some permissions", comment: "")
+        title = NSLocalizedString("FreeAltTab needs some permissions", comment: "")
         titleVisibility = .hidden
         titlebarAppearsTransparent = true
         hidesOnDeactivate = false
@@ -47,7 +51,7 @@ class PermissionsWindow: NSWindow {
         let appIconSize = NSSize(width: 80, height: 80)
         appIcon.updateContents(.cgImage(App.appIcon(for: appIconSize)), appIconSize)
         appIcon.fit(80, 80)
-        let appText = TitleLabel(NSLocalizedString("AltTab needs some permissions", comment: ""))
+        let appText = TitleLabel(NSLocalizedString("FreeAltTab needs some permissions", comment: ""))
         appText.preferredMaxLayoutWidth = 380
         appText.font = .systemFont(ofSize: 25, weight: .regular)
         let header = NSStackView(views: [appIcon, appText])

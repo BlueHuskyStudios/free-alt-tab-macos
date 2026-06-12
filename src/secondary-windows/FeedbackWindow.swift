@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 import Foundation
 import Sparkle
@@ -97,7 +101,7 @@ class FeedbackWindow: NSWindow {
         appIcon.updateContents(.cgImage(App.appIcon(for: appIconSize)), appIconSize)
         appIcon.fit(64, 64)
 
-        let subtitle = NSTextField(labelWithString: NSLocalizedString("Help improve AltTab", comment: ""))
+        let subtitle = NSTextField(labelWithString: NSLocalizedString("Help improve FreeAltTab", comment: ""))
         subtitle.textColor = .secondaryLabelColor
         let headerText = StackView([
             BoldLabel(NSLocalizedString("Send feedback", comment: "")),
@@ -236,7 +240,7 @@ class FeedbackWindow: NSWindow {
     private func showUpdateAvailableAlert(item: SUAppcastItem) {
         let alert = NSAlert()
         alert.alertStyle = .informational
-        alert.messageText = NSLocalizedString("A new version of AltTab is available", comment: "")
+        alert.messageText = NSLocalizedString("A new version of FreeAltTab is available", comment: "")
         let format = NSLocalizedString(
             "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting.",
             comment: "")

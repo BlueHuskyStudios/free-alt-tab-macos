@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ kini memiliki tingkat Pro";
 "%@ — last seen %@" = "%1$@ — terakhir dilihat %2$@";
 "3-finger Horizontal Swipe" = "Gesek Horizontal 3 Jari";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Gesek Horizontal 4 Jari";
 "4-finger Vertical Swipe" = "Gesek Vertikal 4 Jari";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Profil debug (versi, pengaturan, perangkat keras) dilampirkan untuk membantu mendiagnosis masalah.";
-"A new version of AltTab is available" = "Versi baru AltTab tersedia";
+"A new version of FreeAltTab is available" = "Versi baru FreeAltTab tersedia";
 "About %@" = "Tentang %@";
 "Accessibility" = "Aksesibilitas";
 "Activate" = "Aktifkan";
@@ -26,14 +31,14 @@
 "All Spaces" = "Semua Ruang";
 "Allowed" = "Diizinkan";
 "Alphabetical Order" = "Urutan Abjad";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab mengalami kerusakan saat terakhir kali Anda menggunakannya. Mengirim laporan kerusakan akan membantu memperbaiki masalah";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab adalah pengalih jendela gratis dan sumber terbuka untuk macOS. Fitur Pro tersedia dengan uji coba gratis 14 hari.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab berjalan tanpa izin Perekaman Layar. %@ tidak akan ditampilkan.";
-"AltTab needs some permissions" = "AltTab memerlukan beberapa izin";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro menambahkan 4 fitur di luar pengalih gratis.";
-"AltTab Pro is still available" = "AltTab Pro masih tersedia";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab akan menampilkan ikon status jika jendela saat ini diminimalkan atau dalam layar penuh.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab mengalami kerusakan saat terakhir kali Anda menggunakannya. Mengirim laporan kerusakan akan membantu memperbaiki masalah";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab adalah pengalih jendela gratis dan sumber terbuka untuk macOS. Fitur Pro tersedia dengan uji coba gratis 14 hari.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab berjalan tanpa izin Perekaman Layar. %@ tidak akan ditampilkan.";
+"FreeAltTab needs some permissions" = "FreeAltTab memerlukan beberapa izin";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro menambahkan 4 fitur di luar pengalih gratis.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro masih tersedia";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab akan menampilkan ikon status jika jendela saat ini diminimalkan atau dalam layar penuh.";
 "Always" = "Selalu";
 "Always send crash reports" = "Selalu kirim laporan kerusakan";
 "and press" = "lalu tekan";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Jendela layar penuh/Keluar dari layar penuh";
 "General" = "Umum";
 "Gesture" = "Gestur";
-"Get more from AltTab with Pro" = "Dapatkan lebih banyak dari AltTab dengan Pro";
+"Get more from FreeAltTab with Pro" = "Dapatkan lebih banyak dari FreeAltTab dengan Pro";
 "Get Pro" = "Dapatkan Pro";
 "Go back" = "Kembali";
 "Grant permission" = "Berikan izin";
 "Group apps" = "Kelompokkan aplikasi";
 "Group tabs" = "Kelompokkan tab";
-"Help improve AltTab" = "Bantu tingkatkan AltTab";
+"Help improve FreeAltTab" = "Bantu tingkatkan FreeAltTab";
 "Hide" = "Sembunyikan";
 "Hide colored circles on mouse hover" = "Sembunyikan lingkaran berwarna saat kursor diarahkan";
 "Hide Space number labels" = "Sembunyikan label nomor Ruang";
@@ -138,11 +143,11 @@
 "Large" = "Besar";
 "Later" = "Nanti";
 "License doesn't cover this version" = "Lisensi tidak mencakup versi ini";
-"License will remain valid and usable to activate AltTab on any machine" = "Lisensi akan tetap valid dan dapat digunakan untuk mengaktifkan AltTab pada mesin mana pun";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "Lisensi akan tetap valid dan dapat digunakan untuk mengaktifkan FreeAltTab pada mesin mana pun";
 "Light" = "Terang";
 "Lock search" = "Kunci pencarian";
 "Machine %@" = "Mesin %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS mencadangkan ⌘⌥⎋, ⌘⌥⇧⎋, dan ⌘⌥⇧⌃⎋ untuk Paksa Keluar dan tidak dapat dilepaskan. AltTab tidak dapat menggunakannya.\n\nPerubahan Anda akan menetapkan salah satunya ke: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS mencadangkan ⌘⌥⎋, ⌘⌥⇧⎋, dan ⌘⌥⇧⌃⎋ untuk Paksa Keluar dan tidak dapat dilepaskan. FreeAltTab tidak dapat menggunakannya.\n\nPerubahan Anda akan menetapkan salah satunya ke: %@.";
 "Manage activations, view receipts, etc" = "Kelola aktivasi, lihat tanda terima, dll";
 "Maybe later" = "Mungkin nanti";
 "Medium" = "Sedang";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Diganti dalam Pintasan:";
 "Paste your license key:" = "Tempel kunci lisensi Anda:";
 "Pick a machine to deactivate so you can activate here." = "Pilih mesin untuk dinonaktifkan agar Anda dapat mengaktifkan di sini.";
-"Please drag AltTab into the Applications folder manually." = "Seret AltTab ke folder Aplikasi secara manual.";
+"Please drag FreeAltTab into the Applications folder manually." = "Seret FreeAltTab ke folder Aplikasi secara manual.";
 "Please fill in the form" = "Isi formulir";
 "Preview selected window" = "Pratinjau jendela terpilih";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Layar termasuk bilah menu";
 "Screen including mouse" = "Layar termasuk tetikus";
 "Screen Recording" = "Perekaman Layar";
-"Screen showing AltTab" = "Layar yang menampilkan AltTab";
+"Screen showing FreeAltTab" = "Layar yang menampilkan FreeAltTab";
 "Search" = "Cari";
 "Search is a Pro feature." = "Pencarian adalah fitur Pro.";
 "Search windows by typing" = "Cari jendela dengan mengetik";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Anda menjalankan v%1$@. v%2$@ tersedia. Bug yang Anda lihat mungkin sudah diperbaiki — harap perbarui dulu dan periksa sebelum melaporkan.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Anda telah menggunakan %@.\nIni akan kembali ke bawaan pada Hari ke-15.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Anda telah menggunakan %d fitur Pro.\nIni akan kembali ke bawaan pada Hari ke-15.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Anda telah menggunakan AltTab %1$@ kali — %2$@ di antaranya menggunakan fitur Pro.";
-"You've used AltTab %@ times." = "Anda telah menggunakan AltTab %@ kali.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Anda telah menggunakan FreeAltTab %1$@ kali — %2$@ di antaranya menggunakan fitur Pro.";
+"You've used FreeAltTab %@ times." = "Anda telah menggunakan FreeAltTab %@ kali.";
 "Your 14-day Pro trial just ended" = "Uji coba Pro 14 hari Anda baru saja berakhir";
 "Your feedback will be submitted as a public GitHub issue." = "Masukan Anda akan dikirim sebagai isu GitHub publik.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Lisensi Anda tidak mencakup versi ini. Tingkatkan ke Lifetime Pro.";

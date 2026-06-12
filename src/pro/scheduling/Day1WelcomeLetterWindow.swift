@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 class Day1WelcomeLetterWindow: ProPromptWindow {
@@ -22,7 +26,7 @@ class Day1WelcomeLetterWindow: ProPromptWindow {
         let header = ProPromptHeader(title: String(format: titleFormat, App.name), size: .large)
 
         let messageText = isFresh
-            ? NSLocalizedString("AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.", comment: "")
+            ? NSLocalizedString("FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.", comment: "")
             : NSLocalizedString("You have 14 days to try all Pro features. After that, Pro features will step back and the core window switcher will keep working exactly as before.\n\nAltTab stays free and open-source. Pro is an optional one-time purchase that funds continued development.", comment: "")
         let message = NSTextField(wrappingLabelWithString: messageText)
         message.font = .systemFont(ofSize: 14)

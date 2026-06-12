@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ 现已推出 Pro 版本";
 "%@ — last seen %@" = "%1$@ — 上次出现于 %2$@";
 "3-finger Horizontal Swipe" = "三指水平滑动";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "四指水平滑动";
 "4-finger Vertical Swipe" = "四指垂直滑动";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "已附上调试信息（版本、设置、硬件）以协助诊断问题。";
-"A new version of AltTab is available" = "AltTab 有新版本可用";
+"A new version of FreeAltTab is available" = "FreeAltTab 有新版本可用";
 "About %@" = "关于 %@";
 "Accessibility" = "辅助功能";
 "Activate" = "激活";
@@ -26,14 +31,14 @@
 "All Spaces" = "所有桌面";
 "Allowed" = "允许";
 "Alphabetical Order" = "按字母顺序";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab 在您上次使用时崩溃了。发送崩溃报告有助于修复问题";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab 是一款免费、开源的 macOS 窗口切换器。Pro 功能提供 14 天免费试用。";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab 正在运行但未获得屏幕录制权限。%@将无法显示。";
-"AltTab needs some permissions" = "AltTab 需要一些权限";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro 在免费切换器之外新增 4 项功能。";
-"AltTab Pro is still available" = "AltTab Pro 仍然可用";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab 将通过状态图标显示窗口当前是否已最小化或全屏。";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab 在您上次使用时崩溃了。发送崩溃报告有助于修复问题";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab 是一款免费、开源的 macOS 窗口切换器。Pro 功能提供 14 天免费试用。";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab 正在运行但未获得屏幕录制权限。%@将无法显示。";
+"FreeAltTab needs some permissions" = "FreeAltTab 需要一些权限";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro 在免费切换器之外新增 4 项功能。";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro 仍然可用";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab 将通过状态图标显示窗口当前是否已最小化或全屏。";
 "Always" = "始终";
 "Always send crash reports" = "始终发送崩溃报告";
 "and press" = "然后按";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "全屏/退出全屏窗口";
 "General" = "通用";
 "Gesture" = "手势";
-"Get more from AltTab with Pro" = "通过 Pro 获取 AltTab 更多功能";
+"Get more from FreeAltTab with Pro" = "通过 Pro 获取 FreeAltTab 更多功能";
 "Get Pro" = "获取 Pro";
 "Go back" = "返回";
 "Grant permission" = "授予权限";
 "Group apps" = "应用分组";
 "Group tabs" = "标签分组";
-"Help improve AltTab" = "帮助改进 AltTab";
+"Help improve FreeAltTab" = "帮助改进 FreeAltTab";
 "Hide" = "隐藏";
 "Hide colored circles on mouse hover" = "鼠标悬停时隐藏彩色圆圈";
 "Hide Space number labels" = "隐藏桌面编号标签";
@@ -138,11 +143,11 @@
 "Large" = "大";
 "Later" = "稍后";
 "License doesn't cover this version" = "许可证不包含此版本";
-"License will remain valid and usable to activate AltTab on any machine" = "许可证仍然有效，可在任何设备上激活 AltTab";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "许可证仍然有效，可在任何设备上激活 FreeAltTab";
 "Light" = "浅色";
 "Lock search" = "锁定搜索";
 "Machine %@" = "设备 %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS 将 ⌘⌥⎋、⌘⌥⇧⎋ 和 ⌘⌥⇧⌃⎋ 保留用于强制退出，无法解除绑定。AltTab 无法使用它们。\n\n您的更改会将其中之一分配给：%@。";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS 将 ⌘⌥⎋、⌘⌥⇧⎋ 和 ⌘⌥⇧⌃⎋ 保留用于强制退出，无法解除绑定。FreeAltTab 无法使用它们。\n\n您的更改会将其中之一分配给：%@。";
 "Manage activations, view receipts, etc" = "管理激活、查看收据等";
 "Maybe later" = "稍后再说";
 "Medium" = "中";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "在快捷键中被覆盖：";
 "Paste your license key:" = "粘贴您的许可证密钥：";
 "Pick a machine to deactivate so you can activate here." = "请选择一台设备停用，以便在此处激活。";
-"Please drag AltTab into the Applications folder manually." = "请手动将 AltTab 拖动到应用程序文件夹。";
+"Please drag FreeAltTab into the Applications folder manually." = "请手动将 FreeAltTab 拖动到应用程序文件夹。";
 "Please fill in the form" = "请填写表单";
 "Preview selected window" = "预览所选窗口";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "包含菜单栏的屏幕";
 "Screen including mouse" = "包含鼠标的屏幕";
 "Screen Recording" = "屏幕录制";
-"Screen showing AltTab" = "显示 AltTab 的屏幕";
+"Screen showing FreeAltTab" = "显示 FreeAltTab 的屏幕";
 "Search" = "搜索";
 "Search is a Pro feature." = "搜索是 Pro 功能。";
 "Search windows by typing" = "通过输入搜索窗口";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "您当前运行的是 v%1$@。v%2$@ 已可用。您遇到的错误可能已被修复 — 请先更新并检查，再提交报告。";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "您一直在使用 %@。\n这些将在第 15 天恢复为默认值。";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "您一直在使用 %d 项 Pro 功能。\n它们将在第 15 天恢复为默认值。";
-"You've used AltTab %@ times — %@ of those used Pro features." = "您已使用 AltTab %1$@ 次 — 其中 %2$@ 次使用了 Pro 功能。";
-"You've used AltTab %@ times." = "您已使用 AltTab %@ 次。";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "您已使用 FreeAltTab %1$@ 次 — 其中 %2$@ 次使用了 Pro 功能。";
+"You've used FreeAltTab %@ times." = "您已使用 FreeAltTab %@ 次。";
 "Your 14-day Pro trial just ended" = "您的 14 天 Pro 试用刚刚结束";
 "Your feedback will be submitted as a public GitHub issue." = "您的反馈将作为公开的 GitHub issue 提交。";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "您的许可证不包含此版本。请升级到 Lifetime Pro。";

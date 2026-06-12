@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 /// Classic keyboard shortcuts like copy-and-paste are missing without a MainMenu
@@ -62,7 +66,7 @@ class MainMenu {
     // MARK: - Menu builders
 
     private static func appMenuItem() -> NSMenuItem {
-        let menu = NSMenu(title: "AltTab")
+        let menu = NSMenu(title: App.name)
         menu.addItem(item("Preferences…", "orderFrontPreferencesPanel:", ","))
         menu.addItem(.separator())
         let servicesItem = NSMenuItem(title: "Services", action: nil, keyEquivalent: "")
@@ -73,7 +77,7 @@ class MainMenu {
         menu.addItem(.separator())
         menu.addItem(item("Show All", "unhideAllApplications:"))
         menu.addItem(.separator())
-        menu.addItem(item("Quit AltTab", "terminate:", "q"))
+        menu.addItem(item("Quit \(App.name)", "terminate:", "q"))
         return menuBarItem(menu)
     }
 
@@ -257,7 +261,7 @@ class MainMenu {
 
     private static func helpMenuItem() -> NSMenuItem {
         let menu = NSMenu(title: "Help")
-        menu.addItem(item("AltTab Help", "showHelp:", "?"))
+        menu.addItem(item("\(App.name) Help", "showHelp:", "?"))
         NSApp.helpMenu = menu
         return menuBarItem(menu)
     }

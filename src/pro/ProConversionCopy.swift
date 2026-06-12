@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Foundation
 
 /// View-layer presenter for the Pro-transition prompts. Reads raw data from `UsageStats`
@@ -29,14 +33,14 @@ enum ProConversionCopy {
 
         if triggers > 0 && proCount > 0 {
             return String(format: NSLocalizedString(
-                "You've used AltTab %@ times — %@ of those used Pro features.",
+                "You've used FreeAltTab %@ times — %@ of those used Pro features.",
                 comment: ""),
                 UsageStats.formatCount(triggers),
                 UsageStats.formatCount(proCount))
         }
         if triggers > 0 {
             return String(format: NSLocalizedString(
-                "You've used AltTab %@ times.",
+                "You've used FreeAltTab %@ times.",
                 comment: ""),
                 UsageStats.formatCount(triggers))
         }
