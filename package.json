@@ -3,7 +3,7 @@
   "name": "free-alt-tab-macos",
   "version": "2026.06.11",
   "author": "",
-  "license": "(Fair License OR GPL-3.0)",
+  "license": "GPL-3.0",
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
