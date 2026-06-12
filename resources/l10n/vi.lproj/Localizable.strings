@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ hiện đã có gói Pro";
 "%@ — last seen %@" = "%1$@ — lần cuối nhìn thấy %2$@";
 "3-finger Horizontal Swipe" = "Vuốt ngang 3 ngón tay";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Vuốt ngang 4 ngón tay";
 "4-finger Vertical Swipe" = "Vuốt dọc 4 ngón tay";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Hồ sơ gỡ lỗi (phiên bản, cài đặt, phần cứng) được đính kèm để giúp chẩn đoán sự cố.";
-"A new version of AltTab is available" = "Đã có phiên bản mới của AltTab";
+"A new version of FreeAltTab is available" = "Đã có phiên bản mới của FreeAltTab";
 "About %@" = "Giới thiệu về %@";
 "Accessibility" = "Trợ năng";
 "Activate" = "Kích hoạt";
@@ -26,14 +31,14 @@
 "All Spaces" = "Tất cả Không gian";
 "Allowed" = "Cho phép";
 "Alphabetical Order" = "Thứ tự bảng chữ cái";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab đã gặp sự cố ở lần dùng trước. Gửi báo cáo sự cố sẽ giúp khắc phục vấn đề";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab là trình chuyển đổi cửa sổ miễn phí, mã nguồn mở cho macOS. Các tính năng Pro có sẵn với bản dùng thử miễn phí 14 ngày.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab đang chạy mà không có quyền Ghi màn hình. %@ sẽ không hiển thị.";
-"AltTab needs some permissions" = "AltTab cần một số quyền";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro bổ sung 4 tính năng ngoài trình chuyển đổi miễn phí.";
-"AltTab Pro is still available" = "AltTab Pro vẫn còn khả dụng";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab sẽ hiển thị biểu tượng trạng thái nếu cửa sổ đang được thu nhỏ hoặc ở chế độ toàn màn hình.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab đã gặp sự cố ở lần dùng trước. Gửi báo cáo sự cố sẽ giúp khắc phục vấn đề";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab là trình chuyển đổi cửa sổ miễn phí, mã nguồn mở cho macOS. Các tính năng Pro có sẵn với bản dùng thử miễn phí 14 ngày.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab đang chạy mà không có quyền Ghi màn hình. %@ sẽ không hiển thị.";
+"FreeAltTab needs some permissions" = "FreeAltTab cần một số quyền";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro bổ sung 4 tính năng ngoài trình chuyển đổi miễn phí.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro vẫn còn khả dụng";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab sẽ hiển thị biểu tượng trạng thái nếu cửa sổ đang được thu nhỏ hoặc ở chế độ toàn màn hình.";
 "Always" = "Luôn luôn";
 "Always send crash reports" = "Luôn gửi báo cáo sự cố";
 "and press" = "và nhấn";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Bật/Tắt toàn màn hình cửa sổ";
 "General" = "Tổng quát";
 "Gesture" = "Cử chỉ";
-"Get more from AltTab with Pro" = "Tận dụng tối đa AltTab với Pro";
+"Get more from FreeAltTab with Pro" = "Tận dụng tối đa FreeAltTab với Pro";
 "Get Pro" = "Mua Pro";
 "Go back" = "Quay lại";
 "Grant permission" = "Cấp quyền";
 "Group apps" = "Nhóm ứng dụng";
 "Group tabs" = "Nhóm tab";
-"Help improve AltTab" = "Giúp cải thiện AltTab";
+"Help improve FreeAltTab" = "Giúp cải thiện FreeAltTab";
 "Hide" = "Ẩn";
 "Hide colored circles on mouse hover" = "Ẩn các vòng tròn màu khi di chuột";
 "Hide Space number labels" = "Ẩn nhãn số Không gian";
@@ -138,11 +143,11 @@
 "Large" = "Lớn";
 "Later" = "Để sau";
 "License doesn't cover this version" = "Giấy phép không áp dụng cho phiên bản này";
-"License will remain valid and usable to activate AltTab on any machine" = "Giấy phép sẽ vẫn hợp lệ và có thể dùng để kích hoạt AltTab trên bất kỳ máy nào";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "Giấy phép sẽ vẫn hợp lệ và có thể dùng để kích hoạt FreeAltTab trên bất kỳ máy nào";
 "Light" = "Sáng";
 "Lock search" = "Khóa tìm kiếm";
 "Machine %@" = "Máy %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS dành riêng ⌘⌥⎋, ⌘⌥⇧⎋, và ⌘⌥⇧⌃⎋ cho Buộc thoát và không thể gỡ bỏ. AltTab không thể sử dụng chúng.\n\nThay đổi của bạn sẽ gán một trong số đó cho: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS dành riêng ⌘⌥⎋, ⌘⌥⇧⎋, và ⌘⌥⇧⌃⎋ cho Buộc thoát và không thể gỡ bỏ. FreeAltTab không thể sử dụng chúng.\n\nThay đổi của bạn sẽ gán một trong số đó cho: %@.";
 "Manage activations, view receipts, etc" = "Quản lý kích hoạt, xem biên lai, v.v.";
 "Maybe later" = "Có thể để sau";
 "Medium" = "Trung bình";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Bị ghi đè trong Phím tắt:";
 "Paste your license key:" = "Dán khóa giấy phép của bạn:";
 "Pick a machine to deactivate so you can activate here." = "Chọn một máy để hủy kích hoạt để bạn có thể kích hoạt tại đây.";
-"Please drag AltTab into the Applications folder manually." = "Vui lòng kéo AltTab vào thư mục Ứng dụng theo cách thủ công.";
+"Please drag FreeAltTab into the Applications folder manually." = "Vui lòng kéo FreeAltTab vào thư mục Ứng dụng theo cách thủ công.";
 "Please fill in the form" = "Vui lòng điền vào biểu mẫu";
 "Preview selected window" = "Xem trước cửa sổ đã chọn";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Màn hình có thanh menu";
 "Screen including mouse" = "Màn hình có con trỏ chuột";
 "Screen Recording" = "Ghi màn hình";
-"Screen showing AltTab" = "Màn hình hiển thị AltTab";
+"Screen showing FreeAltTab" = "Màn hình hiển thị FreeAltTab";
 "Search" = "Tìm kiếm";
 "Search is a Pro feature." = "Tìm kiếm là tính năng Pro.";
 "Search windows by typing" = "Tìm cửa sổ bằng cách nhập";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Bạn đang dùng v%1$@. v%2$@ đã có sẵn. Lỗi bạn đang gặp có thể đã được sửa — vui lòng cập nhật trước và kiểm tra lại trước khi báo cáo.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Bạn đã sử dụng %@.\nCác mục này sẽ trở về mặc định vào Ngày thứ 15.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Bạn đã sử dụng %d tính năng Pro.\nChúng sẽ trở về mặc định vào Ngày thứ 15.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Bạn đã dùng AltTab %1$@ lần — %2$@ trong số đó sử dụng các tính năng Pro.";
-"You've used AltTab %@ times." = "Bạn đã dùng AltTab %@ lần.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Bạn đã dùng FreeAltTab %1$@ lần — %2$@ trong số đó sử dụng các tính năng Pro.";
+"You've used FreeAltTab %@ times." = "Bạn đã dùng FreeAltTab %@ lần.";
 "Your 14-day Pro trial just ended" = "Bản dùng thử Pro 14 ngày của bạn vừa kết thúc";
 "Your feedback will be submitted as a public GitHub issue." = "Phản hồi của bạn sẽ được gửi dưới dạng GitHub Issue công khai.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Giấy phép của bạn không áp dụng cho phiên bản này. Hãy nâng cấp lên Lifetime Pro.";

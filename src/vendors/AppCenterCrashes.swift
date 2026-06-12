@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 import AppCenter
 import AppCenterCrashes
@@ -59,7 +63,7 @@ class AppCenterCrash: NSObject {
             let alert = NSAlert()
             alert.alertStyle = .warning
             alert.messageText = NSLocalizedString("Send a crash report?", comment: "")
-            alert.informativeText = NSLocalizedString("AltTab crashed last time you used it. Sending a crash report will help get the issue fixed", comment: "")
+            alert.informativeText = NSLocalizedString("FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed", comment: "")
             alert.addButton(withTitle: NSLocalizedString("Send", comment: "")).setAccessibilityFocused(true)
             let cancelButton = alert.addButton(withTitle: NSLocalizedString("Don’t send", comment: ""))
             cancelButton.keyEquivalent = "\u{1b}"

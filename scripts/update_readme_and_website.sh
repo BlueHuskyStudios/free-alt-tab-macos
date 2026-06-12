@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# Starting 2026-06-11, Ky forked the original repo to make this one.
+# The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+# If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 set -exu
 
 github_api_request() {
@@ -7,7 +11,7 @@ github_api_request() {
   curl -s \
     -H "Accept: application/vnd.github+json" \
     -H "Authorization: token $GITHUB_TOKEN" \
-    "https://api.github.com/repos/lwouis/alt-tab-macos$url"
+    "https://api.github.com/repos/BlueHuskyStudios/free-alt-tab-macos$url"
 }
 
 unicode_sort() {
@@ -27,11 +31,17 @@ github_contributors() {
 update_developer_contributors() {
   local file="docs/contributors.md"
   {
-    echo "## [Developed the app](https://github.com/lwouis/alt-tab-macos/graphs/contributors)"
+    cat <<'EOF'
+## [Developed Ky's fork](https://github.com/BlueHuskyStudios/free-alt-tab-macos/graphs/contributors)
+
+Starting 2026-06-11, Ky forked the original repo to make this one.
+The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+EOF
     echo
     github_contributors
     echo
-    sed -n '/## Localized the app/,$p' "$file"
+    sed -n '/## \[Developed the original app\](https:\/\/github\.com\/lwouis\/alt-tab-macos\/graphs\/contributors)/,$p' "$file"
   } > "$file.tmp" && mv "$file.tmp" "$file"
 }
 

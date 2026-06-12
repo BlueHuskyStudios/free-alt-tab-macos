@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 /// An overlay view that lets clicks pass through to views behind it. Used for the Pro-lock ghost
@@ -154,7 +158,7 @@ class ShowHideIllustratedView {
     // duplicating `NSLocalizedString` calls. Each is the single source of truth for that row's
     // localized text; `setupItems` below uses these constants when building the rows.
     static let hideStatusIconsLabel = NSLocalizedString("Hide status icons", comment: "")
-    static let hideStatusIconsSubtitle = NSLocalizedString("AltTab will show if the window is currently minimized or fullscreen with a status icon.", comment: "")
+    static let hideStatusIconsSubtitle = NSLocalizedString("FreeAltTab will show if the window is currently minimized or fullscreen with a status icon.", comment: "")
     static let hideSpaceNumberLabelsLabel = NSLocalizedString("Hide Space number labels", comment: "")
     static let hideColoredCirclesLabel = NSLocalizedString("Hide colored circles on mouse hover", comment: "")
 

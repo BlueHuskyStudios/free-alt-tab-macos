@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ now has a Pro tier";
 "%@ — last seen %@" = "%@ — last seen %@";
 "3-finger Horizontal Swipe" = "3-finger Horizontal Swipe";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "4-finger Horizontal Swipe";
 "4-finger Vertical Swipe" = "4-finger Vertical Swipe";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "A debug profile (versions, settings, hardware) is attached to help diagnose the issue.";
-"A new version of AltTab is available" = "A new version of AltTab is available";
+"A new version of FreeAltTab is available" = "A new version of FreeAltTab is available";
 "About %@" = "About %@";
 "Accessibility" = "Accessibility";
 "Activate" = "Activate";
@@ -26,14 +31,14 @@
 "All Spaces" = "All Spaces";
 "Allowed" = "Allowed";
 "Alphabetical Order" = "Alphabetical Order";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab crashed last time you used it. Sending a crash report will help get the issue fixed";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab is running without Screen Recording permissions. %@ won’t show.";
-"AltTab needs some permissions" = "AltTab needs some permissions";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro adds 4 features beyond the free switcher.";
-"AltTab Pro is still available" = "AltTab Pro is still available";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab will show if the window is currently minimized or fullscreen with a status icon.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab is running without Screen Recording permissions. %@ won’t show.";
+"FreeAltTab needs some permissions" = "FreeAltTab needs some permissions";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro adds 4 features beyond the free switcher.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro is still available";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab will show if the window is currently minimized or fullscreen with a status icon.";
 "Always" = "Always";
 "Always send crash reports" = "Always send crash reports";
 "and press" = "and press";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Fullscreen/Defullscreen window";
 "General" = "General";
 "Gesture" = "Gesture";
-"Get more from AltTab with Pro" = "Get more from AltTab with Pro";
+"Get more from FreeAltTab with Pro" = "Get more from FreeAltTab with Pro";
 "Get Pro" = "Get Pro";
 "Go back" = "Go back";
 "Grant permission" = "Grant permission";
 "Group apps" = "Group apps";
 "Group tabs" = "Group tabs";
-"Help improve AltTab" = "Help improve AltTab";
+"Help improve FreeAltTab" = "Help improve FreeAltTab";
 "Hide" = "Hide";
 "Hide colored circles on mouse hover" = "Hide colored circles on mouse hover";
 "Hide Space number labels" = "Hide Space number labels";
@@ -138,11 +143,11 @@
 "Large" = "Large";
 "Later" = "Later";
 "License doesn't cover this version" = "License doesn't cover this version";
-"License will remain valid and usable to activate AltTab on any machine" = "License will remain valid and usable to activate AltTab on any machine";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "License will remain valid and usable to activate FreeAltTab on any machine";
 "Light" = "Light";
 "Lock search" = "Lock search";
 "Machine %@" = "Machine %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@.";
 "Manage activations, view receipts, etc" = "Manage activations, view receipts, etc";
 "Maybe later" = "Maybe later";
 "Medium" = "Medium";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Overridden in Shortcut:";
 "Paste your license key:" = "Paste your license key:";
 "Pick a machine to deactivate so you can activate here." = "Pick a machine to deactivate so you can activate here.";
-"Please drag AltTab into the Applications folder manually." = "Please drag AltTab into the Applications folder manually.";
+"Please drag FreeAltTab into the Applications folder manually." = "Please drag FreeAltTab into the Applications folder manually.";
 "Please fill in the form" = "Please fill in the form";
 "Preview selected window" = "Preview selected window";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Screen including menu bar";
 "Screen including mouse" = "Screen including mouse";
 "Screen Recording" = "Screen Recording";
-"Screen showing AltTab" = "Screen showing AltTab";
+"Screen showing FreeAltTab" = "Screen showing FreeAltTab";
 "Search" = "Search";
 "Search is a Pro feature." = "Search is a Pro feature.";
 "Search windows by typing" = "Search windows by typing";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "You've been using %@.\nThese will switch back to defaults on Day 15.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "You've used AltTab %@ times — %@ of those used Pro features.";
-"You've used AltTab %@ times." = "You've used AltTab %@ times.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "You've used FreeAltTab %@ times — %@ of those used Pro features.";
+"You've used FreeAltTab %@ times." = "You've used FreeAltTab %@ times.";
 "Your 14-day Pro trial just ended" = "Your 14-day Pro trial just ended";
 "Your feedback will be submitted as a public GitHub issue." = "Your feedback will be submitted as a public GitHub issue.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Your license doesn't cover this version. Upgrade to Lifetime Pro.";

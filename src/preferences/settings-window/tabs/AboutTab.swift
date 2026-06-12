@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 class AboutTab {
@@ -150,7 +154,7 @@ class AboutWindow: NSPanel {
         let weekCount = UsageStats.count("triggers", since: now.addingTimeInterval(-7 * 24 * 3600))
         let monthCount = UsageStats.count("triggers", since: now.addingTimeInterval(-30 * 24 * 3600))
         let yearCount = UsageStats.count("triggers", since: now.addingTimeInterval(-365 * 24 * 3600))
-        let markdown = "## \(NSLocalizedString("Usage", comment: ""))\n\nYou have used AltTab:\n\u{2022} **\(weekCount)** times in the past week\n\u{2022} **\(monthCount)** times in the past month\n\u{2022} **\(yearCount)** times in the past year"
+        let markdown = "## \(NSLocalizedString("Usage", comment: ""))\n\nYou have used FreeAltTab:\n\u{2022} **\(weekCount)** times in the past week\n\u{2022} **\(monthCount)** times in the past month\n\u{2022} **\(yearCount)** times in the past year"
         usageTextView.textStorage!.setAttributedString(Markdown.toAttributedString(markdown))
         usageTextView.layoutManager!.ensureLayout(for: usageTextView.textContainer!)
         let usedRect = usageTextView.layoutManager!.usedRect(for: usageTextView.textContainer!)

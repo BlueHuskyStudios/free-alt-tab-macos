@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import AppKit
 import Darwin
 
@@ -181,7 +185,7 @@ enum MoveToApplicationsFolder {
         let alert = NSAlert()
         alert.messageText = NSLocalizedString("Could not move to Applications folder", comment: "LetsMove replacement alert")
         if needsAdmin {
-            alert.informativeText = NSLocalizedString("Please drag AltTab into the Applications folder manually.", comment: "LetsMove replacement alert")
+            alert.informativeText = NSLocalizedString("Please drag FreeAltTab into the Applications folder manually.", comment: "LetsMove replacement alert")
         }
         alert.runModal()
     }

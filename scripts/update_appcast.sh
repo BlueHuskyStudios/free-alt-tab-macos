@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# Starting 2026-06-11, Ky forked the original repo to make this one.
+# The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+# If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
+
 set -exu
 
 version="$(cat "$VERSION_FILE")"
@@ -13,7 +18,7 @@ echo "
       <title>Version $version</title>
       <pubDate>$date</pubDate>
       <sparkle:minimumSystemVersion>$minimumSystemVersion</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://alt-tab.app/changelog-bare</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://FreeAltTab.BHStudios.org/changelog-bare</sparkle:releaseNotesLink>
       <enclosure
         url=\"https://github.com/lwouis/alt-tab-macos/releases/download/v$version/$zipName\"
         sparkle:version=\"$version\"

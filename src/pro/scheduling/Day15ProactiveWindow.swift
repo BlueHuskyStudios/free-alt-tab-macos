@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 class Day15ProactiveWindow: ProPromptWindow {
@@ -20,7 +24,7 @@ class Day15ProactiveWindow: ProPromptWindow {
     private static func supportingLine() -> String {
         UsageStats.usedProFeaturesSessionCount == 0
             ? NSLocalizedString(
-                "AltTab Pro adds 4 features beyond the free switcher.", comment: "")
+                "FreeAltTab Pro adds 4 features beyond the free switcher.", comment: "")
             : NSLocalizedString(
                 "Some Pro features have reverted to free defaults.", comment: "")
     }

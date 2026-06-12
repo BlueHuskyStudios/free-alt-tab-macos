@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 
 /// Why a hard-gate fired — used by Day 15 Full Upgrade / Hard Gate Popover to render a contextual
@@ -32,7 +36,7 @@ enum ResolvedReason {
         case .titlesStyle:
             return NSLocalizedString("Unlock the Titles style with Pro", comment: "")
         case .nonEngaged:
-            return NSLocalizedString("Get more from AltTab with Pro", comment: "")
+            return NSLocalizedString("Get more from FreeAltTab with Pro", comment: "")
         }
     }
 }

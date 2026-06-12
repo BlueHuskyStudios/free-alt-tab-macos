@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ a désormais une offre Pro";
 "%@ — last seen %@" = "%1$@ — vu pour la dernière fois %2$@";
 "3-finger Horizontal Swipe" = "Balayage horizontal à 3 doigts";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Balayage horizontal à 4 doigts";
 "4-finger Vertical Swipe" = "Balayage vertical à 4 doigts";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Un profil de débogage (versions, réglages, matériel) est joint pour aider à diagnostiquer le problème.";
-"A new version of AltTab is available" = "Une nouvelle version d'AltTab est disponible";
+"A new version of FreeAltTab is available" = "Une nouvelle version d'FreeAltTab est disponible";
 "About %@" = "À propos de %@";
 "Accessibility" = "Accessibilité";
 "Activate" = "Activer";
@@ -26,14 +31,14 @@
 "All Spaces" = "Tous les Bureaux";
 "Allowed" = "Autorisé";
 "Alphabetical Order" = "Ordre alphabétique";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab a planté lors de votre dernière utilisation. Envoyer un rapport de plantage aidera à résoudre le problème";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab est un sélecteur de fenêtres gratuit et open source pour macOS. Les fonctionnalités Pro sont disponibles avec un essai gratuit de 14 jours.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab fonctionne sans l'autorisation d'enregistrement de l'écran. %@ ne s'afficheront pas.";
-"AltTab needs some permissions" = "AltTab a besoin de certaines autorisations";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro ajoute 4 fonctionnalités au sélecteur gratuit.";
-"AltTab Pro is still available" = "AltTab Pro est toujours disponible";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab indique avec une icône d'état si la fenêtre est réduite ou en plein écran.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab a planté lors de votre dernière utilisation. Envoyer un rapport de plantage aidera à résoudre le problème";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab est un sélecteur de fenêtres gratuit et open source pour macOS. Les fonctionnalités Pro sont disponibles avec un essai gratuit de 14 jours.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab fonctionne sans l'autorisation d'enregistrement de l'écran. %@ ne s'afficheront pas.";
+"FreeAltTab needs some permissions" = "FreeAltTab a besoin de certaines autorisations";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro ajoute 4 fonctionnalités au sélecteur gratuit.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro est toujours disponible";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab indique avec une icône d'état si la fenêtre est réduite ou en plein écran.";
 "Always" = "Toujours";
 "Always send crash reports" = "Toujours envoyer les rapports de plantage";
 "and press" = "et appuyer sur";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Mettre/Quitter le plein écran";
 "General" = "Général";
 "Gesture" = "Geste";
-"Get more from AltTab with Pro" = "Profitez davantage d'AltTab avec Pro";
+"Get more from FreeAltTab with Pro" = "Profitez davantage d'FreeAltTab avec Pro";
 "Get Pro" = "Obtenir Pro";
 "Go back" = "Retour";
 "Grant permission" = "Accorder l'autorisation";
 "Group apps" = "Grouper les apps";
 "Group tabs" = "Grouper les onglets";
-"Help improve AltTab" = "Aidez à améliorer AltTab";
+"Help improve FreeAltTab" = "Aidez à améliorer FreeAltTab";
 "Hide" = "Masquer";
 "Hide colored circles on mouse hover" = "Masquer les cercles colorés au survol de la souris";
 "Hide Space number labels" = "Masquer les numéros de Bureau";
@@ -138,11 +143,11 @@
 "Large" = "Grand";
 "Later" = "Plus tard";
 "License doesn't cover this version" = "La licence ne couvre pas cette version";
-"License will remain valid and usable to activate AltTab on any machine" = "La licence restera valide et utilisable pour activer AltTab sur n'importe quelle machine";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "La licence restera valide et utilisable pour activer FreeAltTab sur n'importe quelle machine";
 "Light" = "Clair";
 "Lock search" = "Verrouiller la recherche";
 "Machine %@" = "Machine %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS réserve ⌘⌥⎋, ⌘⌥⇧⎋ et ⌘⌥⇧⌃⎋ pour Forcer à quitter et ils ne peuvent pas être réaffectés. AltTab ne peut pas les utiliser.\n\nVotre modification en affecterait un à : %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS réserve ⌘⌥⎋, ⌘⌥⇧⎋ et ⌘⌥⇧⌃⎋ pour Forcer à quitter et ils ne peuvent pas être réaffectés. FreeAltTab ne peut pas les utiliser.\n\nVotre modification en affecterait un à : %@.";
 "Manage activations, view receipts, etc" = "Gérer les activations, consulter les reçus, etc.";
 "Maybe later" = "Peut-être plus tard";
 "Medium" = "Moyen";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Remplacé dans le raccourci :";
 "Paste your license key:" = "Collez votre clé de licence :";
 "Pick a machine to deactivate so you can activate here." = "Choisissez une machine à désactiver pour pouvoir activer ici.";
-"Please drag AltTab into the Applications folder manually." = "Veuillez glisser AltTab manuellement dans le dossier Applications.";
+"Please drag FreeAltTab into the Applications folder manually." = "Veuillez glisser FreeAltTab manuellement dans le dossier Applications.";
 "Please fill in the form" = "Veuillez remplir le formulaire";
 "Preview selected window" = "Aperçu de la fenêtre sélectionnée";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Écran avec la barre des menus";
 "Screen including mouse" = "Écran avec la souris";
 "Screen Recording" = "Enregistrement de l'écran";
-"Screen showing AltTab" = "Écran affichant AltTab";
+"Screen showing FreeAltTab" = "Écran affichant FreeAltTab";
 "Search" = "Recherche";
 "Search is a Pro feature." = "La recherche est une fonctionnalité Pro.";
 "Search windows by typing" = "Rechercher des fenêtres en saisissant";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Vous utilisez la v%1$@. La v%2$@ est disponible. Le bug que vous rencontrez est peut-être déjà corrigé — mettez à jour d'abord et vérifiez avant de signaler.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Vous utilisez %@.\nElles reviendront aux valeurs par défaut au 15ᵉ jour.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Vous utilisez %d fonctionnalités Pro.\nElles reviendront aux valeurs par défaut au 15ᵉ jour.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Vous avez utilisé AltTab %1$@ fois — %2$@ de ces utilisations comprenaient des fonctionnalités Pro.";
-"You've used AltTab %@ times." = "Vous avez utilisé AltTab %@ fois.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Vous avez utilisé FreeAltTab %1$@ fois — %2$@ de ces utilisations comprenaient des fonctionnalités Pro.";
+"You've used FreeAltTab %@ times." = "Vous avez utilisé FreeAltTab %@ fois.";
 "Your 14-day Pro trial just ended" = "Votre essai Pro de 14 jours vient de se terminer";
 "Your feedback will be submitted as a public GitHub issue." = "Votre commentaire sera envoyé sous forme de ticket GitHub public.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Votre licence ne couvre pas cette version. Passez à Pro Lifetime.";

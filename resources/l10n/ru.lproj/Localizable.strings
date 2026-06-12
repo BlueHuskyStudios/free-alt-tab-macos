@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "В %@ появился тариф Pro";
 "%@ — last seen %@" = "%1$@ — последняя активность %2$@";
 "3-finger Horizontal Swipe" = "Горизонтальный свайп тремя пальцами";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Горизонтальный свайп четырьмя пальцами";
 "4-finger Vertical Swipe" = "Вертикальный свайп четырьмя пальцами";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "К сообщению приложен отладочный профиль (версии, настройки, оборудование) для диагностики проблемы.";
-"A new version of AltTab is available" = "Доступна новая версия AltTab";
+"A new version of FreeAltTab is available" = "Доступна новая версия FreeAltTab";
 "About %@" = "О программе %@";
 "Accessibility" = "Универсальный доступ";
 "Activate" = "Активировать";
@@ -26,14 +31,14 @@
 "All Spaces" = "Все пространства";
 "Allowed" = "Разрешено";
 "Alphabetical Order" = "По алфавиту";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "В прошлый раз AltTab завершился со сбоем. Отправка отчёта о сбое поможет устранить проблему";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab — это бесплатный переключатель окон с открытым исходным кодом для macOS. Функции Pro доступны с бесплатным 14-дневным пробным периодом.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab работает без разрешения на запись экрана. %@ не будут отображаться.";
-"AltTab needs some permissions" = "AltTab требуется несколько разрешений";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro добавляет 4 функции к бесплатному переключателю.";
-"AltTab Pro is still available" = "AltTab Pro по-прежнему доступен";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab покажет значком статуса, если окно сейчас свёрнуто или в полноэкранном режиме.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "В прошлый раз FreeAltTab завершился со сбоем. Отправка отчёта о сбое поможет устранить проблему";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab — это бесплатный переключатель окон с открытым исходным кодом для macOS. Функции Pro доступны с бесплатным 14-дневным пробным периодом.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab работает без разрешения на запись экрана. %@ не будут отображаться.";
+"FreeAltTab needs some permissions" = "FreeAltTab требуется несколько разрешений";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro добавляет 4 функции к бесплатному переключателю.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro по-прежнему доступен";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab покажет значком статуса, если окно сейчас свёрнуто или в полноэкранном режиме.";
 "Always" = "Всегда";
 "Always send crash reports" = "Всегда отправлять отчёты о сбоях";
 "and press" = "и нажмите";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Развернуть/свернуть окно на весь экран";
 "General" = "Основные";
 "Gesture" = "Жест";
-"Get more from AltTab with Pro" = "Получите больше от AltTab с Pro";
+"Get more from FreeAltTab with Pro" = "Получите больше от FreeAltTab с Pro";
 "Get Pro" = "Получить Pro";
 "Go back" = "Назад";
 "Grant permission" = "Предоставить разрешение";
 "Group apps" = "Группировать приложения";
 "Group tabs" = "Группировать вкладки";
-"Help improve AltTab" = "Помочь улучшить AltTab";
+"Help improve FreeAltTab" = "Помочь улучшить FreeAltTab";
 "Hide" = "Скрыть";
 "Hide colored circles on mouse hover" = "Скрывать цветные кружки при наведении курсора";
 "Hide Space number labels" = "Скрывать номера пространств";
@@ -138,11 +143,11 @@
 "Large" = "Большой";
 "Later" = "Позже";
 "License doesn't cover this version" = "Лицензия не распространяется на эту версию";
-"License will remain valid and usable to activate AltTab on any machine" = "Лицензия останется действительной и пригодной для активации AltTab на любом компьютере";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "Лицензия останется действительной и пригодной для активации FreeAltTab на любом компьютере";
 "Light" = "Светлая";
 "Lock search" = "Зафиксировать поиск";
 "Machine %@" = "Компьютер %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS резервирует ⌘⌥⎋, ⌘⌥⇧⎋ и ⌘⌥⇧⌃⎋ для «Завершить принудительно», и их нельзя отвязать. AltTab не может их использовать.\n\nВаше изменение назначит одно из них на: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS резервирует ⌘⌥⎋, ⌘⌥⇧⎋ и ⌘⌥⇧⌃⎋ для «Завершить принудительно», и их нельзя отвязать. FreeAltTab не может их использовать.\n\nВаше изменение назначит одно из них на: %@.";
 "Manage activations, view receipts, etc" = "Управление активациями, просмотр чеков и т. д.";
 "Maybe later" = "Возможно, позже";
 "Medium" = "Средний";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Переопределено в сочетании клавиш:";
 "Paste your license key:" = "Вставьте лицензионный ключ:";
 "Pick a machine to deactivate so you can activate here." = "Выберите компьютер для деактивации, чтобы активировать здесь.";
-"Please drag AltTab into the Applications folder manually." = "Перетащите AltTab в папку «Программы» вручную.";
+"Please drag FreeAltTab into the Applications folder manually." = "Перетащите FreeAltTab в папку «Программы» вручную.";
 "Please fill in the form" = "Заполните форму";
 "Preview selected window" = "Предпросмотр выбранного окна";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Экран со строкой меню";
 "Screen including mouse" = "Экран с курсором мыши";
 "Screen Recording" = "Запись экрана";
-"Screen showing AltTab" = "Экран с AltTab";
+"Screen showing FreeAltTab" = "Экран с FreeAltTab";
 "Search" = "Поиск";
 "Search is a Pro feature." = "Поиск — функция Pro.";
 "Search windows by typing" = "Поиск окон по тексту";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "У вас установлена v%1$@. Доступна v%2$@. Ошибка, с которой вы столкнулись, возможно, уже исправлена — сначала обновитесь и проверьте, прежде чем сообщать о ней.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Вы использовали %@.\nНа 15-й день они вернутся к значениям по умолчанию.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Вы использовали %d функций Pro.\nНа 15-й день они вернутся к значениям по умолчанию.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Вы использовали AltTab %1$@ раз — из них %2$@ с функциями Pro.";
-"You've used AltTab %@ times." = "Вы использовали AltTab %@ раз.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Вы использовали FreeAltTab %1$@ раз — из них %2$@ с функциями Pro.";
+"You've used FreeAltTab %@ times." = "Вы использовали FreeAltTab %@ раз.";
 "Your 14-day Pro trial just ended" = "Ваш 14-дневный пробный период Pro только что закончился";
 "Your feedback will be submitted as a public GitHub issue." = "Ваш отзыв будет отправлен как публичный issue на GitHub.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Ваша лицензия не распространяется на эту версию. Перейдите на Lifetime Pro.";

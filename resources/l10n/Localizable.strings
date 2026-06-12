@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+
 /* No comment provided by engineer. */
 "%@ now has a Pro tier" = "%@ now has a Pro tier";
 
@@ -23,9 +28,9 @@
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "A debug profile (versions, settings, hardware) is attached to help diagnose the issue.";
 
 /* No comment provided by engineer. */
-"A new version of AltTab is available" = "A new version of AltTab is available";
+"A new version of FreeAltTab is available" = "A new version of FreeAltTab is available";
 
-/* Menubar option. %@ is AltTab */
+/* Menubar option. %@ is FreeAltTab */
 "About %@" = "About %@";
 
 /* No comment provided by engineer. */
@@ -83,28 +88,28 @@
 "Alphabetical Order" = "Alphabetical Order";
 
 /* No comment provided by engineer. */
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab crashed last time you used it. Sending a crash report will help get the issue fixed";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed";
 
 /* No comment provided by engineer. */
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial.";
 
 /* Menubar callout. %@ is one or more feature names, e.g. Thumbnails */
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab is running without Screen Recording permissions. %@ won’t show.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab is running without Screen Recording permissions. %@ won’t show.";
 
 /* No comment provided by engineer. */
-"AltTab needs some permissions" = "AltTab needs some permissions";
+"FreeAltTab needs some permissions" = "FreeAltTab needs some permissions";
 
 /* No comment provided by engineer. */
-"AltTab Pro" = "AltTab Pro";
+"FreeAltTab Pro" = "FreeAltTab Pro";
 
 /* No comment provided by engineer. */
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro adds 4 features beyond the free switcher.";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro adds 4 features beyond the free switcher.";
 
 /* No comment provided by engineer. */
-"AltTab Pro is still available" = "AltTab Pro is still available";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro is still available";
 
 /* No comment provided by engineer. */
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab will show if the window is currently minimized or fullscreen with a status icon.";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab will show if the window is currently minimized or fullscreen with a status icon.";
 
 /* No comment provided by engineer. */
 "Always" = "Always";
@@ -341,7 +346,7 @@
 "Gesture" = "Gesture";
 
 /* No comment provided by engineer. */
-"Get more from AltTab with Pro" = "Get more from AltTab with Pro";
+"Get more from FreeAltTab with Pro" = "Get more from FreeAltTab with Pro";
 
 /* Menubar option */
 "Get Pro" = "Get Pro";
@@ -359,7 +364,7 @@
 "Group tabs" = "Group tabs";
 
 /* No comment provided by engineer. */
-"Help improve AltTab" = "Help improve AltTab";
+"Help improve FreeAltTab" = "Help improve FreeAltTab";
 
 /* No comment provided by engineer. */
 "Hide" = "Hide";
@@ -419,7 +424,7 @@
 "License doesn't cover this version" = "License doesn't cover this version";
 
 /* No comment provided by engineer. */
-"License will remain valid and usable to activate AltTab on any machine" = "License will remain valid and usable to activate AltTab on any machine";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "License will remain valid and usable to activate FreeAltTab on any machine";
 
 /* No comment provided by engineer. */
 "Light" = "Light";
@@ -431,7 +436,7 @@
 "Machine %@" = "Machine %@";
 
 /* No comment provided by engineer. */
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@.";
 
 /* No comment provided by engineer. */
 "Manage activations, view receipts, etc" = "Manage activations, view receipts, etc";
@@ -527,7 +532,7 @@
 "Pick a machine to deactivate so you can activate here." = "Pick a machine to deactivate so you can activate here.";
 
 /* LetsMove replacement alert */
-"Please drag AltTab into the Applications folder manually." = "Please drag AltTab into the Applications folder manually.";
+"Please drag FreeAltTab into the Applications folder manually." = "Please drag FreeAltTab into the Applications folder manually.";
 
 /* No comment provided by engineer. */
 "Please fill in the form" = "Please fill in the form";
@@ -559,7 +564,7 @@
 /* No comment provided by engineer. */
 "Pro Lifetime license activated for %@" = "Pro Lifetime license activated for %@";
 
-/* %@ is AltTab */
+/* %@ is FreeAltTab */
 "Quit %@" = "Quit %@";
 
 /* No comment provided by engineer. */
@@ -602,7 +607,7 @@
 "Screen Recording" = "Screen Recording";
 
 /* No comment provided by engineer. */
-"Screen showing AltTab" = "Screen showing AltTab";
+"Screen showing FreeAltTab" = "Screen showing FreeAltTab";
 
 /* No comment provided by engineer. */
 "Search" = "Search";
@@ -935,10 +940,10 @@
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15.";
 
 /* No comment provided by engineer. */
-"You've used AltTab %@ times — %@ of those used Pro features." = "You've used AltTab %1$@ times — %2$@ of those used Pro features.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "You've used FreeAltTab %1$@ times — %2$@ of those used Pro features.";
 
 /* No comment provided by engineer. */
-"You've used AltTab %@ times." = "You've used AltTab %@ times.";
+"You've used FreeAltTab %@ times." = "You've used FreeAltTab %@ times.";
 
 /* No comment provided by engineer. */
 "Your 14-day Pro trial just ended" = "Your 14-day Pro trial just ended";

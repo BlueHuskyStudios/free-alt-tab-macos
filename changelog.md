@@ -1,3 +1,18 @@
+# [2026.06.11](https://github.com/BlueHuskyStudios/free-alt-tab-macos/compare/v11.3.0...2026.06.11) (2026-06-11)
+
+Starting 2026-06-11, Ky forked the original repo to make this one.
+The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
+- Forked the repo from [lwouis' original](https://github.com/lwouis/alt-tab-macos)
+- Removed notes of sponsorship which don't apply to this fork
+- Renamed the product to FreeAltTab
+- Added links in README to sponsor lwouis
+- Introduced calver to distinguish this fork's versions from the original repo's
+- Added the [free-alt-tab-macos-tools](https://github.com/KyNorthstar/free-alt-tab-macos-tools) subrepo
+
+
+All text below this line was written by lwouis in the process of creating the original `alt-tab-macos`:
 # [11.3.0](https://github.com/lwouis/alt-tab-macos/compare/v11.2.0...v11.3.0) (2026-06-04)
 
 

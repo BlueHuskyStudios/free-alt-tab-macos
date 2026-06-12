@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 class CliEvents {
     static let portName = "\(App.bundleIdentifier).cli"
 
@@ -7,7 +11,7 @@ class CliEvents {
            let source = CFMessagePortCreateRunLoopSource(nil, messagePort, 0) {
             CFRunLoopAddSource(BackgroundWork.cliEventsThread.runLoop, source, .commonModes)
         } else {
-            Logger.error { "Can't listen on message port. Is another AltTab already running?" }
+            Logger.error { "Can't listen on message port. Is another \(App.name) already running?" }
             // TODO: should we quit or restart here?
             // It's complex since AltTab can be restarted sometimes,
             // and the new instance may coexist with the old for some duration
@@ -153,7 +157,7 @@ class CliClient {
             print("Couldn't execute command. Is it correct?")
             exit(1)
         } catch {
-            print("AltTab.app needs to be running for CLI commands to work")
+            print("FreeAltTab.app needs to be running for CLI commands to work")
             exit(1)
         }
     }

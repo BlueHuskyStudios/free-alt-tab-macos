@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ heeft nu een Pro-versie";
 "%@ — last seen %@" = "%1$@ — laatst gezien %2$@";
 "3-finger Horizontal Swipe" = "Horizontale veegbeweging met 3 vingers";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Horizontale veegbeweging met 4 vingers";
 "4-finger Vertical Swipe" = "Verticale veegbeweging met 4 vingers";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Een debugprofiel (versies, instellingen, hardware) is bijgevoegd om het probleem te diagnosticeren.";
-"A new version of AltTab is available" = "Er is een nieuwe versie van AltTab beschikbaar";
+"A new version of FreeAltTab is available" = "Er is een nieuwe versie van FreeAltTab beschikbaar";
 "About %@" = "Over %@";
 "Accessibility" = "Toegankelijkheid";
 "Activate" = "Activeren";
@@ -26,14 +31,14 @@
 "All Spaces" = "Alle Spaces";
 "Allowed" = "Toegestaan";
 "Alphabetical Order" = "Alfabetische volgorde";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab is de vorige keer gecrasht. Door een crashrapport te versturen help je het probleem op te lossen";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab is een gratis, open-source vensterwisselaar voor macOS. Pro-functies zijn beschikbaar met een gratis proefperiode van 14 dagen.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab werkt zonder toegang voor Schermopname. %@ worden niet weergegeven.";
-"AltTab needs some permissions" = "AltTab heeft enkele rechten nodig";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro voegt 4 functies toe aan de gratis wisselaar.";
-"AltTab Pro is still available" = "AltTab Pro is nog steeds beschikbaar";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab toont met een statussymbool of het venster momenteel geminimaliseerd of in volledig scherm is.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab is de vorige keer gecrasht. Door een crashrapport te versturen help je het probleem op te lossen";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab is een gratis, open-source vensterwisselaar voor macOS. Pro-functies zijn beschikbaar met een gratis proefperiode van 14 dagen.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab werkt zonder toegang voor Schermopname. %@ worden niet weergegeven.";
+"FreeAltTab needs some permissions" = "FreeAltTab heeft enkele rechten nodig";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro voegt 4 functies toe aan de gratis wisselaar.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro is nog steeds beschikbaar";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab toont met een statussymbool of het venster momenteel geminimaliseerd of in volledig scherm is.";
 "Always" = "Altijd";
 "Always send crash reports" = "Altijd crashrapporten versturen";
 "and press" = "en druk op";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Venster in/uit volledig scherm";
 "General" = "Algemeen";
 "Gesture" = "Gebaar";
-"Get more from AltTab with Pro" = "Haal meer uit AltTab met Pro";
+"Get more from FreeAltTab with Pro" = "Haal meer uit FreeAltTab met Pro";
 "Get Pro" = "Pro nemen";
 "Go back" = "Terug";
 "Grant permission" = "Toegang verlenen";
 "Group apps" = "Apps groeperen";
 "Group tabs" = "Tabbladen groeperen";
-"Help improve AltTab" = "Help AltTab verbeteren";
+"Help improve FreeAltTab" = "Help FreeAltTab verbeteren";
 "Hide" = "Verberg";
 "Hide colored circles on mouse hover" = "Gekleurde cirkels verbergen bij aanwijzen met muis";
 "Hide Space number labels" = "Nummerlabels van Spaces verbergen";
@@ -138,11 +143,11 @@
 "Large" = "Groot";
 "Later" = "Later";
 "License doesn't cover this version" = "Licentie geldt niet voor deze versie";
-"License will remain valid and usable to activate AltTab on any machine" = "De licentie blijft geldig en bruikbaar om AltTab op elk apparaat te activeren";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "De licentie blijft geldig en bruikbaar om FreeAltTab op elk apparaat te activeren";
 "Light" = "Licht";
 "Lock search" = "Zoekopdracht vergrendelen";
 "Machine %@" = "Apparaat %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserveert ⌘⌥⎋, ⌘⌥⇧⎋ en ⌘⌥⇧⌃⎋ voor Geforceerd stoppen en deze kunnen niet worden vrijgegeven. AltTab kan ze niet gebruiken.\n\nJe wijziging zou er een toewijzen aan: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS reserveert ⌘⌥⎋, ⌘⌥⇧⎋ en ⌘⌥⇧⌃⎋ voor Geforceerd stoppen en deze kunnen niet worden vrijgegeven. FreeAltTab kan ze niet gebruiken.\n\nJe wijziging zou er een toewijzen aan: %@.";
 "Manage activations, view receipts, etc" = "Activeringen beheren, bonnen bekijken, enz.";
 "Maybe later" = "Misschien later";
 "Medium" = "Middelgroot";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Overschreven in Sneltoets:";
 "Paste your license key:" = "Plak je licentiesleutel:";
 "Pick a machine to deactivate so you can activate here." = "Kies een apparaat om te deactiveren zodat je hier kunt activeren.";
-"Please drag AltTab into the Applications folder manually." = "Sleep AltTab handmatig naar de map Programma's.";
+"Please drag FreeAltTab into the Applications folder manually." = "Sleep FreeAltTab handmatig naar de map Programma's.";
 "Please fill in the form" = "Vul het formulier in";
 "Preview selected window" = "Voorvertoning van geselecteerd venster";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Scherm met menubalk";
 "Screen including mouse" = "Scherm met muis";
 "Screen Recording" = "Schermopname";
-"Screen showing AltTab" = "Scherm dat AltTab toont";
+"Screen showing FreeAltTab" = "Scherm dat FreeAltTab toont";
 "Search" = "Zoeken";
 "Search is a Pro feature." = "Zoeken is een Pro-functie.";
 "Search windows by typing" = "Vensters zoeken door te typen";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Je gebruikt v%1$@. v%2$@ is beschikbaar. De bug die je ziet is mogelijk al verholpen — werk eerst bij en controleer voordat je rapporteert.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Je hebt %@ gebruikt.\nDeze gaan op dag 15 terug naar de standaardwaarden.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Je hebt %d Pro-functies gebruikt.\nDeze gaan op dag 15 terug naar de standaardwaarden.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Je hebt AltTab %1$@ keer gebruikt — %2$@ daarvan met Pro-functies.";
-"You've used AltTab %@ times." = "Je hebt AltTab %@ keer gebruikt.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Je hebt FreeAltTab %1$@ keer gebruikt — %2$@ daarvan met Pro-functies.";
+"You've used FreeAltTab %@ times." = "Je hebt FreeAltTab %@ keer gebruikt.";
 "Your 14-day Pro trial just ended" = "Je 14-daagse Pro-proefperiode is zojuist afgelopen";
 "Your feedback will be submitted as a public GitHub issue." = "Je feedback wordt ingediend als openbare GitHub-issue.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Je licentie geldt niet voor deze versie. Upgrade naar Lifetime Pro.";

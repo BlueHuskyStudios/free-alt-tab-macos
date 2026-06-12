@@ -1,8 +1,15 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
 import Darwin
+
 import ShortcutRecorder
 import AppCenterCrashes
 import Sparkle
+
+
 
 class App: AppCenterApplication {
     /// periphery:ignore
@@ -13,7 +20,7 @@ class App: AppCenterApplication {
     static let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as! String
     static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
     static let licence = Bundle.main.object(forInfoDictionaryKey: "NSHumanReadableCopyright") as! String
-    static let repository = "https://github.com/lwouis/alt-tab-macos"
+    static let repository = "https://github.com/BlueHuskyStudios/free-alt-tab-macos"
     static let appIconReps = CGImage.allNamed("app.icns")
 
     static func appIcon(for size: NSSize) -> CGImage {
@@ -427,7 +434,7 @@ class App: AppCenterApplication {
         UsageStats.prune()
         ProTransitionManager.shared.onAction = { ProPromptHost.shared.dispatch($0) }
         ProTransitionManager.shared.onAppLaunchComplete()
-        Logger.info { "Finished launching AltTab" }
+        Logger.info { "Finished launching \(App.name)" }
     }
 }
 
@@ -436,7 +443,7 @@ extension App: NSApplicationDelegate {
         App.appCenterDelegate = AppCenterCrash()
         App.shared.disableRelaunchOnLogin()
         Logger.initialize()
-        Logger.info { "Launching AltTab \(App.version)" }
+        Logger.info { "Launching \(App.name) \(App.version)" }
         #if DEBUG
         UserDefaults.standard.set(true, forKey: "NSConstraintBasedLayoutVisualizeMutuallyExclusiveConstraints")
         #endif

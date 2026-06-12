@@ -1,0 +1,3 @@
+[submodule "lib/KyNorthstar/free-alt-tab-macos-tools"]
+	path = lib/KyNorthstar/free-alt-tab-macos-tools
+	url = https://github.com/KyNorthstar/free-alt-tab-macos-tools.git

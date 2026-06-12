@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ ma teraz wersję Pro";
 "%@ — last seen %@" = "%1$@ — ostatnio widziano %2$@";
 "3-finger Horizontal Swipe" = "Przeciągnięcie 3 palcami w poziomie";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "Przeciągnięcie 4 palcami w poziomie";
 "4-finger Vertical Swipe" = "Przeciągnięcie 4 palcami w pionie";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "Załączono profil diagnostyczny (wersje, ustawienia, sprzęt), aby pomóc w diagnozie problemu.";
-"A new version of AltTab is available" = "Dostępna jest nowa wersja AltTab";
+"A new version of FreeAltTab is available" = "Dostępna jest nowa wersja FreeAltTab";
 "About %@" = "%@ — informacje";
 "Accessibility" = "Dostępność";
 "Activate" = "Aktywuj";
@@ -26,14 +31,14 @@
 "All Spaces" = "Wszystkie Przestrzenie";
 "Allowed" = "Dozwolone";
 "Alphabetical Order" = "Kolejność alfabetyczna";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab uległ awarii podczas ostatniego użycia. Wysłanie raportu awarii pomoże naprawić problem";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab to darmowy, otwartoźródłowy przełącznik okien dla macOS. Funkcje Pro są dostępne w 14-dniowym bezpłatnym okresie próbnym.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab działa bez uprawnień do Nagrywania ekranu. %@ nie będą wyświetlane.";
-"AltTab needs some permissions" = "AltTab wymaga uprawnień";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro dodaje 4 funkcje wykraczające poza darmowy przełącznik.";
-"AltTab Pro is still available" = "AltTab Pro jest nadal dostępny";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab pokaże ikoną stanu, czy okno jest obecnie zminimalizowane lub na pełnym ekranie.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "FreeAltTab uległ awarii podczas ostatniego użycia. Wysłanie raportu awarii pomoże naprawić problem";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab to darmowy, otwartoźródłowy przełącznik okien dla macOS. Funkcje Pro są dostępne w 14-dniowym bezpłatnym okresie próbnym.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab działa bez uprawnień do Nagrywania ekranu. %@ nie będą wyświetlane.";
+"FreeAltTab needs some permissions" = "FreeAltTab wymaga uprawnień";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro dodaje 4 funkcje wykraczające poza darmowy przełącznik.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro jest nadal dostępny";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "FreeAltTab pokaże ikoną stanu, czy okno jest obecnie zminimalizowane lub na pełnym ekranie.";
 "Always" = "Zawsze";
 "Always send crash reports" = "Zawsze wysyłaj raporty awarii";
 "and press" = "i naciśnij";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "Pełny ekran / wyjście z pełnego ekranu";
 "General" = "Ogólne";
 "Gesture" = "Gest";
-"Get more from AltTab with Pro" = "Wykorzystaj więcej z AltTab dzięki Pro";
+"Get more from FreeAltTab with Pro" = "Wykorzystaj więcej z FreeAltTab dzięki Pro";
 "Get Pro" = "Kup Pro";
 "Go back" = "Wróć";
 "Grant permission" = "Przyznaj uprawnienie";
 "Group apps" = "Grupuj aplikacje";
 "Group tabs" = "Grupuj karty";
-"Help improve AltTab" = "Pomóż ulepszyć AltTab";
+"Help improve FreeAltTab" = "Pomóż ulepszyć FreeAltTab";
 "Hide" = "Ukryj";
 "Hide colored circles on mouse hover" = "Ukryj kolorowe kółka przy najechaniu kursorem";
 "Hide Space number labels" = "Ukryj etykiety numerów Przestrzeni";
@@ -138,11 +143,11 @@
 "Large" = "Duży";
 "Later" = "Później";
 "License doesn't cover this version" = "Licencja nie obejmuje tej wersji";
-"License will remain valid and usable to activate AltTab on any machine" = "Licencja pozostanie ważna i będzie można jej użyć do aktywacji AltTab na dowolnym komputerze";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "Licencja pozostanie ważna i będzie można jej użyć do aktywacji FreeAltTab na dowolnym komputerze";
 "Light" = "Jasny";
 "Lock search" = "Zablokuj wyszukiwanie";
 "Machine %@" = "Komputer %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS rezerwuje ⌘⌥⎋, ⌘⌥⇧⎋ i ⌘⌥⇧⌃⎋ dla Wymuś koniec i nie można ich odpiąć. AltTab nie może ich użyć.\n\nTwoja zmiana przypisałaby jeden z nich do: %@.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS rezerwuje ⌘⌥⎋, ⌘⌥⇧⎋ i ⌘⌥⇧⌃⎋ dla Wymuś koniec i nie można ich odpiąć. FreeAltTab nie może ich użyć.\n\nTwoja zmiana przypisałaby jeden z nich do: %@.";
 "Manage activations, view receipts, etc" = "Zarządzaj aktywacjami, przeglądaj rachunki itp.";
 "Maybe later" = "Może później";
 "Medium" = "Średni";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "Zastąpione w skrócie:";
 "Paste your license key:" = "Wklej swój klucz licencyjny:";
 "Pick a machine to deactivate so you can activate here." = "Wybierz komputer do dezaktywacji, aby aktywować tutaj.";
-"Please drag AltTab into the Applications folder manually." = "Przeciągnij AltTab do folderu Aplikacje ręcznie.";
+"Please drag FreeAltTab into the Applications folder manually." = "Przeciągnij FreeAltTab do folderu Aplikacje ręcznie.";
 "Please fill in the form" = "Wypełnij formularz";
 "Preview selected window" = "Podgląd zaznaczonego okna";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "Ekran z paskiem menu";
 "Screen including mouse" = "Ekran z kursorem";
 "Screen Recording" = "Nagrywanie ekranu";
-"Screen showing AltTab" = "Ekran z AltTab";
+"Screen showing FreeAltTab" = "Ekran z FreeAltTab";
 "Search" = "Wyszukiwanie";
 "Search is a Pro feature." = "Wyszukiwanie to funkcja Pro.";
 "Search windows by typing" = "Wyszukuj okna, wpisując tekst";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "Używasz wersji v%1$@. Dostępna jest v%2$@. Błąd, który widzisz, może być już naprawiony — uaktualnij najpierw i sprawdź przed zgłoszeniem.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "Używasz %@.\nWrócą one do ustawień domyślnych 15. dnia.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "Używasz %d funkcji Pro.\nWrócą one do ustawień domyślnych 15. dnia.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "Używałeś AltTab %1$@ razy — z czego %2$@ użyło funkcji Pro.";
-"You've used AltTab %@ times." = "Używałeś AltTab %@ razy.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "Używałeś FreeAltTab %1$@ razy — z czego %2$@ użyło funkcji Pro.";
+"You've used FreeAltTab %@ times." = "Używałeś FreeAltTab %@ razy.";
 "Your 14-day Pro trial just ended" = "Twój 14-dniowy okres próbny Pro właśnie się zakończył";
 "Your feedback will be submitted as a public GitHub issue." = "Twoja opinia zostanie wysłana jako publiczne zgłoszenie na GitHub.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "Twoja licencja nie obejmuje tej wersji. Przejdź na Lifetime Pro.";

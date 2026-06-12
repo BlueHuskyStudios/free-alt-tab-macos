@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@에 Pro 등급이 추가되었습니다";
 "%@ — last seen %@" = "%1$@ — 마지막 접속 %2$@";
 "3-finger Horizontal Swipe" = "세 손가락 가로 스와이프";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "네 손가락 가로 스와이프";
 "4-finger Vertical Swipe" = "네 손가락 세로 스와이프";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "문제 진단을 돕기 위해 디버그 프로파일(버전, 설정, 하드웨어)이 첨부됩니다.";
-"A new version of AltTab is available" = "AltTab의 새 버전이 출시되었습니다";
+"A new version of FreeAltTab is available" = "AltTab의 새 버전이 출시되었습니다";
 "About %@" = "%@ 정보";
 "Accessibility" = "손쉬운 사용";
 "Activate" = "활성화";
@@ -26,14 +31,14 @@
 "All Spaces" = "모든 Space";
 "Allowed" = "허용됨";
 "Alphabetical Order" = "알파벳 순서";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab이 마지막 사용 시 충돌했습니다. 충돌 보고서를 보내면 문제 해결에 도움이 됩니다";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab은 macOS용 무료 오픈 소스 윈도우 전환기입니다. Pro 기능은 14일 무료 체험으로 이용할 수 있습니다.";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab이 화면 녹화 권한 없이 실행 중입니다. %@이(가) 표시되지 않습니다.";
-"AltTab needs some permissions" = "AltTab에 몇 가지 권한이 필요합니다";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro는 무료 전환기에 4가지 기능을 추가합니다.";
-"AltTab Pro is still available" = "AltTab Pro는 계속 이용할 수 있습니다";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab이 윈도우의 최소화 또는 전체 화면 상태를 상태 아이콘으로 표시합니다.";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "AltTab이 마지막 사용 시 충돌했습니다. 충돌 보고서를 보내면 문제 해결에 도움이 됩니다";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab은 macOS용 무료 오픈 소스 윈도우 전환기입니다. Pro 기능은 14일 무료 체험으로 이용할 수 있습니다.";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab이 화면 녹화 권한 없이 실행 중입니다. %@이(가) 표시되지 않습니다.";
+"FreeAltTab needs some permissions" = "AltTab에 몇 가지 권한이 필요합니다";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro는 무료 전환기에 4가지 기능을 추가합니다.";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro는 계속 이용할 수 있습니다";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "AltTab이 윈도우의 최소화 또는 전체 화면 상태를 상태 아이콘으로 표시합니다.";
 "Always" = "항상";
 "Always send crash reports" = "항상 충돌 보고서 보내기";
 "and press" = "그리고 누르기";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "윈도우 전체 화면 전환";
 "General" = "일반";
 "Gesture" = "제스처";
-"Get more from AltTab with Pro" = "Pro로 AltTab을 더 활용하기";
+"Get more from FreeAltTab with Pro" = "Pro로 AltTab을 더 활용하기";
 "Get Pro" = "Pro 받기";
 "Go back" = "뒤로 가기";
 "Grant permission" = "권한 부여";
 "Group apps" = "앱 그룹화";
 "Group tabs" = "탭 그룹화";
-"Help improve AltTab" = "AltTab 개선에 도움 주기";
+"Help improve FreeAltTab" = "FreeAltTab 개선에 도움 주기";
 "Hide" = "숨기기";
 "Hide colored circles on mouse hover" = "마우스 오버 시 색상 원 숨기기";
 "Hide Space number labels" = "Space 번호 레이블 숨기기";
@@ -138,11 +143,11 @@
 "Large" = "크게";
 "Later" = "나중에";
 "License doesn't cover this version" = "라이선스가 이 버전을 포함하지 않습니다";
-"License will remain valid and usable to activate AltTab on any machine" = "라이선스는 유효하며 어떤 기기에서도 AltTab을 활성화하는 데 사용할 수 있습니다";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "라이선스는 유효하며 어떤 기기에서도 AltTab을 활성화하는 데 사용할 수 있습니다";
 "Light" = "라이트";
 "Lock search" = "검색 잠그기";
 "Machine %@" = "기기 %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS는 ⌘⌥⎋, ⌘⌥⇧⎋, ⌘⌥⇧⌃⎋를 강제 종료용으로 예약하며 해제할 수 없습니다. AltTab은 이를 사용할 수 없습니다.\n\n변경하면 이 중 하나가 %@에 할당됩니다.";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS는 ⌘⌥⎋, ⌘⌥⇧⎋, ⌘⌥⇧⌃⎋를 강제 종료용으로 예약하며 해제할 수 없습니다. AltTab은 이를 사용할 수 없습니다.\n\n변경하면 이 중 하나가 %@에 할당됩니다.";
 "Manage activations, view receipts, etc" = "활성화 관리, 영수증 보기 등";
 "Maybe later" = "나중에";
 "Medium" = "보통";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "단축키에서 재정의됨:";
 "Paste your license key:" = "라이선스 키 붙여넣기:";
 "Pick a machine to deactivate so you can activate here." = "여기서 활성화하려면 비활성화할 기기를 선택하세요.";
-"Please drag AltTab into the Applications folder manually." = "AltTab을 응용 프로그램 폴더로 직접 드래그해 주세요.";
+"Please drag FreeAltTab into the Applications folder manually." = "AltTab을 응용 프로그램 폴더로 직접 드래그해 주세요.";
 "Please fill in the form" = "양식을 작성해 주세요";
 "Preview selected window" = "선택한 윈도우 미리보기";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "메뉴 막대가 있는 화면";
 "Screen including mouse" = "마우스가 있는 화면";
 "Screen Recording" = "화면 녹화";
-"Screen showing AltTab" = "AltTab이 표시되는 화면";
+"Screen showing FreeAltTab" = "AltTab이 표시되는 화면";
 "Search" = "검색";
 "Search is a Pro feature." = "검색은 Pro 기능입니다.";
 "Search windows by typing" = "입력하여 윈도우 검색";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "현재 v%1$@를 사용 중입니다. v%2$@가 사용 가능합니다. 보고 있는 버그가 이미 수정되었을 수 있습니다 — 신고 전에 먼저 업데이트하고 확인해 주세요.";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "%@을(를) 사용 중입니다.\n15일째에 기본값으로 되돌아갑니다.";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "%d개의 Pro 기능을 사용 중입니다.\n15일째에 기본값으로 되돌아갑니다.";
-"You've used AltTab %@ times — %@ of those used Pro features." = "AltTab을 %1$@번 사용했습니다 — 그중 %2$@번이 Pro 기능을 사용했습니다.";
-"You've used AltTab %@ times." = "AltTab을 %@번 사용했습니다.";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "AltTab을 %1$@번 사용했습니다 — 그중 %2$@번이 Pro 기능을 사용했습니다.";
+"You've used FreeAltTab %@ times." = "AltTab을 %@번 사용했습니다.";
 "Your 14-day Pro trial just ended" = "14일 Pro 체험이 방금 종료되었습니다";
 "Your feedback will be submitted as a public GitHub issue." = "피드백은 공개 GitHub 이슈로 제출됩니다.";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "라이선스가 이 버전을 포함하지 않습니다. Lifetime Pro로 업그레이드하세요.";

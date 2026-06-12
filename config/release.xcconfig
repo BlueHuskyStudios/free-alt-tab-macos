@@ -1,8 +1,12 @@
 // docs: https://help.apple.com/xcode/mac/11.4/#/itcaec37c2a6
+//
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
 
 #include "base.xcconfig"
 
-CODE_SIGN_IDENTITY = Developer ID Application: Louis Pontoise (QXD7GW8FHY)
+CODE_SIGN_IDENTITY = Apple Distribution
 CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO // for notarization
 OTHER_CODE_SIGN_FLAGS = --timestamp --deep --options runtime // for notarization
 SWIFT_COMPILATION_MODE = wholemodule

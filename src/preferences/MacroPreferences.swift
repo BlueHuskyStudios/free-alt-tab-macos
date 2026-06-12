@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 enum MenubarIconPreference: CaseIterable, MacroPreference {
     case outlined
     case filled
@@ -184,7 +188,7 @@ enum ScreensToShowPreference: CaseIterable, MacroPreference {
     var localizedString: LocalizedString {
         switch self {
             case .all: return NSLocalizedString("All screens", comment: "")
-            case .showingAltTab: return NSLocalizedString("Screen showing AltTab", comment: "")
+            case .showingAltTab: return NSLocalizedString("Screen showing FreeAltTab", comment: "")
         }
     }
 }

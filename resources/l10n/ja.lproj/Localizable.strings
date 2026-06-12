@@ -1,3 +1,8 @@
+/* Starting 2026-06-11, Ky forked the original repo to make this one.
+ * The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+ * If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+ */
+/* unused */
 "%@ now has a Pro tier" = "%@ に Pro 版が追加されました";
 "%@ — last seen %@" = "%1$@ — 最終アクセス %2$@";
 "3-finger Horizontal Swipe" = "3 本指の水平スワイプ";
@@ -6,7 +11,7 @@
 "4-finger Horizontal Swipe" = "4 本指の水平スワイプ";
 "4-finger Vertical Swipe" = "4 本指の垂直スワイプ";
 "A debug profile (versions, settings, hardware) is attached to help diagnose the issue." = "問題の診断に役立てるため、デバッグ情報(バージョン、設定、ハードウェア)を添付しています。";
-"A new version of AltTab is available" = "AltTab の新しいバージョンが利用可能です";
+"A new version of FreeAltTab is available" = "FreeAltTab の新しいバージョンが利用可能です";
 "About %@" = "%@ について";
 "Accessibility" = "アクセシビリティ";
 "Activate" = "アクティベート";
@@ -26,14 +31,14 @@
 "All Spaces" = "すべての Space";
 "Allowed" = "許可";
 "Alphabetical Order" = "アルファベット順";
-"AltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "前回の使用時に AltTab がクラッシュしました。クラッシュレポートを送信すると問題の修正に役立ちます";
-"AltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "AltTab は macOS 用の無料・オープンソースのウインドウスイッチャーです。Pro 機能は 14 日間の無料トライアルで利用できます。";
-"AltTab is running without Screen Recording permissions. %@ won’t show." = "AltTab は画面収録の権限なしで動作しています。%@は表示されません。";
-"AltTab needs some permissions" = "AltTab にはいくつかの権限が必要です";
-"AltTab Pro" = "AltTab Pro";
-"AltTab Pro adds 4 features beyond the free switcher." = "AltTab Pro は無料版に加えて 4 つの機能を追加します。";
-"AltTab Pro is still available" = "AltTab Pro は引き続き利用可能です";
-"AltTab will show if the window is currently minimized or fullscreen with a status icon." = "ウインドウが現在最小化またはフルスクリーンの場合、AltTab はステータスアイコンで表示します。";
+"FreeAltTab crashed last time you used it. Sending a crash report will help get the issue fixed" = "前回の使用時に FreeAltTab がクラッシュしました。クラッシュレポートを送信すると問題の修正に役立ちます";
+"FreeAltTab is a free, open-source window switcher for macOS. Pro features are available with a 14-day free trial." = "FreeAltTab は macOS 用の無料・オープンソースのウインドウスイッチャーです。Pro 機能は 14 日間の無料トライアルで利用できます。";
+"FreeAltTab is running without Screen Recording permissions. %@ won’t show." = "FreeAltTab は画面収録の権限なしで動作しています。%@は表示されません。";
+"FreeAltTab needs some permissions" = "FreeAltTab にはいくつかの権限が必要です";
+"FreeAltTab Pro" = "FreeAltTab Pro";
+"FreeAltTab Pro adds 4 features beyond the free switcher." = "FreeAltTab Pro は無料版に加えて 4 つの機能を追加します。";
+"FreeAltTab Pro is still available" = "FreeAltTab Pro は引き続き利用可能です";
+"FreeAltTab will show if the window is currently minimized or fullscreen with a status icon." = "ウインドウが現在最小化またはフルスクリーンの場合、FreeAltTab はステータスアイコンで表示します。";
 "Always" = "常に";
 "Always send crash reports" = "常にクラッシュレポートを送信";
 "and press" = "を押す";
@@ -112,13 +117,13 @@
 "Fullscreen/Defullscreen window" = "ウインドウのフルスクリーン切り替え";
 "General" = "一般";
 "Gesture" = "ジェスチャ";
-"Get more from AltTab with Pro" = "Pro で AltTab をさらに活用";
+"Get more from FreeAltTab with Pro" = "Pro で FreeAltTab をさらに活用";
 "Get Pro" = "Pro を入手";
 "Go back" = "戻る";
 "Grant permission" = "権限を付与";
 "Group apps" = "App をグループ化";
 "Group tabs" = "タブをグループ化";
-"Help improve AltTab" = "AltTab の改善に協力";
+"Help improve FreeAltTab" = "FreeAltTab の改善に協力";
 "Hide" = "非表示";
 "Hide colored circles on mouse hover" = "マウスホバー時のカラーサークルを非表示";
 "Hide Space number labels" = "Space 番号ラベルを非表示";
@@ -138,11 +143,11 @@
 "Large" = "大";
 "Later" = "後で";
 "License doesn't cover this version" = "このバージョンはライセンスの対象外です";
-"License will remain valid and usable to activate AltTab on any machine" = "ライセンスは引き続き有効で、任意のマシンで AltTab をアクティベートできます";
+"License will remain valid and usable to activate FreeAltTab on any machine" = "ライセンスは引き続き有効で、任意のマシンで FreeAltTab をアクティベートできます";
 "Light" = "ライト";
 "Lock search" = "検索をロック";
 "Machine %@" = "マシン %@";
-"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. AltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS は ⌘⌥⎋、⌘⌥⇧⎋、⌘⌥⇧⌃⎋ を強制終了用に予約しており、解除できません。AltTab では使用できません。\n\n変更しようとしている割り当て: %@。";
+"macOS reserves ⌘⌥⎋, ⌘⌥⇧⎋, and ⌘⌥⇧⌃⎋ for Force Quit and they cannot be unbound. FreeAltTab cannot use them.\n\nYour change would assign one of these to: %@." = "macOS は ⌘⌥⎋、⌘⌥⇧⎋、⌘⌥⇧⌃⎋ を強制終了用に予約しており、解除できません。FreeAltTab では使用できません。\n\n変更しようとしている割り当て: %@。";
 "Manage activations, view receipts, etc" = "アクティベーションの管理、領収書の表示など";
 "Maybe later" = "後で";
 "Medium" = "中";
@@ -174,7 +179,7 @@
 "Overridden in Shortcut:" = "上書きされているショートカット:";
 "Paste your license key:" = "ライセンスキーを貼り付け:";
 "Pick a machine to deactivate so you can activate here." = "ここでアクティベートできるよう、非アクティブ化するマシンを選択してください。";
-"Please drag AltTab into the Applications folder manually." = "AltTab を手動でアプリケーションフォルダにドラッグしてください。";
+"Please drag FreeAltTab into the Applications folder manually." = "FreeAltTab を手動でアプリケーションフォルダにドラッグしてください。";
 "Please fill in the form" = "フォームを入力してください";
 "Preview selected window" = "選択したウインドウをプレビュー";
 "Pro" = "Pro";
@@ -199,7 +204,7 @@
 "Screen including menu bar" = "メニューバーを含む画面";
 "Screen including mouse" = "マウスのある画面";
 "Screen Recording" = "画面収録";
-"Screen showing AltTab" = "AltTab を表示する画面";
+"Screen showing FreeAltTab" = "FreeAltTab を表示する画面";
 "Search" = "検索";
 "Search is a Pro feature." = "検索は Pro 機能です。";
 "Search windows by typing" = "入力してウインドウを検索";
@@ -310,8 +315,8 @@
 "You're running v%1$@. v%2$@ is available. The bug you're seeing may already be fixed — please update first and check before reporting." = "現在のバージョンは v%1$@ です。v%2$@ が利用可能です。発生している不具合はすでに修正されている可能性があります — 報告前にまずアップデートしてご確認ください。";
 "You've been using %@.\nThese will switch back to defaults on Day 15." = "%@ を使用しています。\nこれらは 15 日目にデフォルトに戻ります。";
 "You've been using %d Pro features.\nThey'll switch back to defaults on Day 15." = "%d 個の Pro 機能を使用しています。\nこれらは 15 日目にデフォルトに戻ります。";
-"You've used AltTab %@ times — %@ of those used Pro features." = "AltTab を %1$@ 回使用しました — そのうち %2$@ 回は Pro 機能を使用しました。";
-"You've used AltTab %@ times." = "AltTab を %@ 回使用しました。";
+"You've used FreeAltTab %@ times — %@ of those used Pro features." = "FreeAltTab を %1$@ 回使用しました — そのうち %2$@ 回は Pro 機能を使用しました。";
+"You've used FreeAltTab %@ times." = "FreeAltTab を %@ 回使用しました。";
 "Your 14-day Pro trial just ended" = "14 日間の Pro トライアルが終了しました";
 "Your feedback will be submitted as a public GitHub issue." = "フィードバックは公開の GitHub Issue として送信されます。";
 "Your license doesn't cover this version. Upgrade to Lifetime Pro." = "このバージョンはライセンスの対象外です。Lifetime Pro にアップグレードしてください。";
