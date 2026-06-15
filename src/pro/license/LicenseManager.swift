@@ -1,4 +1,5 @@
 import Foundation
+import FreeAltTabTools
 
 class LicenseManager {
     static let keychainService = "\(App.bundleIdentifier).license"
@@ -27,6 +28,7 @@ class LicenseManager {
     /// When a Pro variant needs a cutoff, add: "variant_slug": "X.Y.Z".
     static let versionLimitedVariants: [String: String] = [:]
 
+    var shim = LicenseManagerShim()
     let clock: Clock
     let keychain: Keychain
     let api: LicenseAPI
@@ -55,8 +57,7 @@ class LicenseManager {
     var customerEmail: String? { defaults.string(forKey: Self.customerEmailKey) }
 
     var isLifetimeVariant: Bool {
-        guard let variant = keychain.value(account: Self.keychainVariantAccount) else { return false }
-        return Self.lifetimeVariants.contains(variant)
+        shim.isLifetimeVariant
     }
 
     var isProAvailable: Bool { state.isProAvailable }
@@ -90,7 +91,6 @@ class LicenseManager {
 
     func initialize() {
         state = computeState()
-        scheduleAsyncRevalidationIfNeeded()
     }
 
     /// Trial `daysRemaining` is baked into the `state` enum, so it stays frozen until something
@@ -100,6 +100,12 @@ class LicenseManager {
         let newState = computeState()
         if newState != state { state = newState }
     }
+
+
+    func setLicenseState(_ newValue: UserChosenLicenseState) {
+        shim.userChosenLicenseState = newValue
+    }
+
 
     func activate(_ licenseKey: String, completion: @escaping (Result<Void, Error>) -> Void) {
         api.activate(licenseKey) { [weak self] result in
@@ -174,19 +180,7 @@ class LicenseManager {
     }
 
     func computeState() -> LicenseState {
-        if keychain.value(account: Self.keychainKeyAccount) != nil {
-            let lastValidationResult = defaults.bool(forKey: "lastValidationResult")
-            guard lastValidationResult else { return .trialExpired }
-            if let variant = keychain.value(account: Self.keychainVariantAccount),
-               let maxVersion = Self.versionLimitedVariants[variant] {
-                let currentVersion = currentAppVersion()
-                if currentVersion.compare(maxVersion, options: .numeric) == .orderedDescending {
-                    return .proExpired
-                }
-            }
-            return .pro
-        }
-        return computeTrialState()
+        return .init(shim.userChosenLicenseState)
     }
 
     private func computeTrialState() -> LicenseState {

@@ -1,3 +1,5 @@
+import FreeAltTabTools
+
 enum LicenseState: Equatable {
     case trial(daysRemaining: Int)
     case pro
@@ -16,6 +18,23 @@ enum LicenseState: Equatable {
         case .trial: return "Trial"
         case .pro: return "Pro"
         case .proExpired, .trialExpired: return "Free"
+        }
+    }
+}
+
+
+
+extension LicenseState {
+    
+    /// Converts the given user-chosen license state into the closest analogous license state
+    ///
+    /// - Parameter userChosenLicenseState: The license state that the user chose
+    init(_ userChosenLicenseState: UserChosenLicenseState) {
+        switch userChosenLicenseState {
+        case .pro:
+            self = .pro
+        case .free:
+            self = .trial(daysRemaining: .max)
         }
     }
 }
