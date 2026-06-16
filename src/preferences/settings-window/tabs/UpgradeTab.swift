@@ -3,6 +3,7 @@
 // If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
 
 import Cocoa
+import SwiftUI
 import FreeAltTabTools
 
 class UpgradeTab {
@@ -20,7 +21,11 @@ class UpgradeTab {
     static func initTab() -> NSView {
         let view: NSView
         if #available(macOS 10.15, *) {
-            view = ProUpgradeView.nsView()
+            view = ProUpgradeView.nsView(licenseState: Binding {
+                LicenseManager.shared.licenseState
+            } set: {
+                LicenseManager.shared.licenseState = $0
+            })
         }
         else {
             view = makeView()
