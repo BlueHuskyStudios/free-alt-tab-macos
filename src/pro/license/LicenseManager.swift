@@ -1,3 +1,7 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Foundation
 import FreeAltTabTools
 
@@ -50,8 +54,17 @@ class LicenseManager {
     /// can drive activation without side effects.
     var onBeforeProUnlock: () -> Void = { }
 
-    private(set) var state: LicenseState = .trialExpired {
-        didSet { onStateChanged?(state) }
+    private(set) var state: LicenseState {
+        get {
+            .init(userChosenLicenseState)
+        }
+        set(state) {
+            let userChosenLicenseStateEquivalent = UserChosenLicenseState(state)
+            if userChosenLicenseStateEquivalent != userChosenLicenseState {
+                userChosenLicenseState = userChosenLicenseStateEquivalent
+            }
+            onStateChanged?(state)
+        }
     }
 
     var customerEmail: String? { defaults.string(forKey: Self.customerEmailKey) }
@@ -102,7 +115,7 @@ class LicenseManager {
     }
 
 
-    var licenseState: UserChosenLicenseState {
+    var userChosenLicenseState: UserChosenLicenseState {
         get {
             shim.userChosenLicenseState
         }
@@ -111,7 +124,11 @@ class LicenseManager {
             onBeforeProUnlock()
             shim.userChosenLicenseState = newValue
             refreshState()                          // recompute `state` + notify observers
-            App.resetPreferencesDependentComponents() // re-render anything that was gated
+            
+            let stateEquivalent = LicenseState(newValue)
+            if stateEquivalent != state {
+                state = stateEquivalent
+            }
         }
     }
 

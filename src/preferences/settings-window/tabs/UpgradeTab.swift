@@ -15,9 +15,9 @@ class UpgradeTab {
     static func initTab() -> NSView {
         if #available(macOS 10.15, *) {
             return ProUpgradeView.nsView(licenseState: Binding {
-                LicenseManager.shared.licenseState
+                LicenseManager.shared.userChosenLicenseState
             } set: {
-                LicenseManager.shared.licenseState = $0
+                LicenseManager.shared.userChosenLicenseState = $0
             })
         }
         else {
