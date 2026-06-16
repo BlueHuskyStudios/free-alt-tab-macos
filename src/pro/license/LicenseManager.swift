@@ -108,8 +108,10 @@ class LicenseManager {
         }
         
         set {
-            self.onBeforeProUnlock()
+            onBeforeProUnlock()
             shim.userChosenLicenseState = newValue
+            refreshState()                          // recompute `state` + notify observers
+            App.resetPreferencesDependentComponents() // re-render anything that was gated
         }
     }
 

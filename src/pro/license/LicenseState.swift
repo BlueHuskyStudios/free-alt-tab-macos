@@ -34,7 +34,7 @@ extension LicenseState {
         case .pro:
             self = .pro
         case .free:
-            self = .trial(daysRemaining: .max)
+            self = .trialExpired
         }
     }
 }
