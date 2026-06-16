@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		091A93552FDB9B87007A3169 /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = D04BA459034C1885CA43A807 /* LICENCE.md */; };
 		091A93572FDBC000007A3169 /* App Icon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 091A93562FDBC000007A3169 /* App Icon.icon */; };
+		0999D0BA2FE0BAF9007D848E /* FreeAltTabTools in Frameworks */ = {isa = PBXBuildFile; productRef = 0999D0B92FE0BAF9007D848E /* FreeAltTabTools */; };
+		0999D0BE2FE16401007D848E /* FreeAltTabTools in Frameworks */ = {isa = PBXBuildFile; productRef = 0999D0BD2FE16401007D848E /* FreeAltTabTools */; };
+		0999D0C02FE1656F007D848E /* LicenseStateToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999D0BF2FE1656F007D848E /* LicenseStateToggleTests.swift */; };
+		0999D0C22FE16648007D848E /* LicenseTestMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0999D0C12FE16648007D848E /* LicenseTestMocks.swift */; };
 		1C96101BC5817A7F85FA1F8D /* titles_show_running_applications_light@2x.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1C961F57248D4E2377A9038E /* titles_show_running_applications_light@2x.heic */; };
 		1C96108A0CB2565233FE100B /* TableGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C961FB3DCF4906FEEF4A23D /* TableGroupView.swift */; };
 		1C9610F8AF7AD8CA53B62913 /* titles_hide_status_icons_light@2x.heic in Resources */ = {isa = PBXBuildFile; fileRef = 1C961E64CF8FB6E3FDAA3DAA /* titles_hide_status_icons_light@2x.heic */; };
@@ -82,7 +86,6 @@
 		5F1CE0010000000000000007 /* LicenseCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CE0000000000000000004 /* LicenseCookie.swift */; };
 		5F1CE0010000000000000008 /* LicenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A63012F82D97C00AE4C38 /* LicenseManager.swift */; };
 		5F1CE0010000000000000009 /* LicenseState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A63022F82D97C00AE4C38 /* LicenseState.swift */; };
-		5F1CE001000000000000000A /* LicenseManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CE0000000000000000005 /* LicenseManagerTests.swift */; };
 		5F1CE001000000000000000B /* RemoteLicenseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A63002F82D97C00AE4C38 /* RemoteLicenseClient.swift */; };
 		5F1CE001000000000000000C /* MachineFingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CE0000000000000000006 /* MachineFingerprint.swift */; };
 		5F1CE001000000000000000D /* MachineFingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1CE0000000000000000006 /* MachineFingerprint.swift */; };
@@ -348,6 +351,8 @@
 /* Begin PBXFileReference section */
 		02540420CE27E6C973652426 /* menubar-0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menubar-0.pdf"; sourceTree = "<group>"; };
 		091A93562FDBC000007A3169 /* App Icon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = "App Icon.icon"; sourceTree = "<group>"; };
+		0999D0BF2FE1656F007D848E /* LicenseStateToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseStateToggleTests.swift; sourceTree = "<group>"; };
+		0999D0C12FE16648007D848E /* LicenseTestMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseTestMocks.swift; sourceTree = "<group>"; };
 		126D5AA615CEE89F73C22DA7 /* menubar-1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "menubar-1.pdf"; sourceTree = "<group>"; };
 		1C961003A0D16B9AE3932B3F /* thumbnails_show_colored_circles_light@2x.heic */ = {isa = PBXFileReference; lastKnownFileType = image.heic; path = "thumbnails_show_colored_circles_light@2x.heic"; sourceTree = "<group>"; };
 		1C9610B2E76F1E429C8D3660 /* titles_show_running_windows_light@2x.heic */ = {isa = PBXFileReference; lastKnownFileType = image.heic; path = "titles_show_running_windows_light@2x.heic"; sourceTree = "<group>"; };
@@ -707,6 +712,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0999D0BE2FE16401007D848E /* FreeAltTabTools in Frameworks */,
 				5FDF9EAB2FB357F600703843 /* ShortcutRecorder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,6 +723,7 @@
 			files = (
 				4807A6C623A9CD190052A53E /* SkyLight.framework in Frameworks */,
 				5FDF9EB02FB3582300703843 /* AppCenterCrashes in Frameworks */,
+				0999D0BA2FE0BAF9007D848E /* FreeAltTabTools in Frameworks */,
 				5FDF9EA92FB3577600703843 /* ShortcutRecorder in Frameworks */,
 				5FDF9EA62FB3575B00703843 /* Sparkle in Frameworks */,
 				5FDF9EAE2FB3582300703843 /* AppCenter in Frameworks */,
@@ -845,6 +852,8 @@
 		5B4341A610A084615576D930 /* license */ = {
 			isa = PBXGroup;
 			children = (
+				0999D0BF2FE1656F007D848E /* LicenseStateToggleTests.swift */,
+				0999D0C12FE16648007D848E /* LicenseTestMocks.swift */,
 				5F1CE0000000000000000001 /* Clock.swift */,
 				5F1CE0000000000000000002 /* Keychain.swift */,
 				5F1CE0000000000000000003 /* LicenseAPI.swift */,
@@ -1686,6 +1695,7 @@
 				5FDF9EA42FB3575B00703843 /* XCLocalSwiftPackageReference "vendor/Sparkle" */,
 				5FDF9EA72FB3577600703843 /* XCLocalSwiftPackageReference "vendor/ShortcutRecorder" */,
 				5FDF9EAC2FB3582300703843 /* XCLocalSwiftPackageReference "vendor/AppCenter" */,
+				0999D0B82FE0BAF9007D848E /* XCLocalSwiftPackageReference "lib/KyNorthstar/free-alt-tab-macos-tools" */,
 			);
 			productRefGroup = D04BA1A461BBB5A9BE15E015 /* Products */;
 			projectDirPath = "";
@@ -1871,7 +1881,9 @@
 				BF0C8CEBBC2E851D16FF4757 /* CustomRecorderControlTests.swift in Sources */,
 				BF0C87B5EDCFC573CE220137 /* Helpers.swift in Sources */,
 				5FA004000000000000000004 /* ProTransitionManagerTestable.swift in Sources */,
+				0999D0C02FE1656F007D848E /* LicenseStateToggleTests.swift in Sources */,
 				5FA004000000000000000005 /* ProTransitionTests.swift in Sources */,
+				0999D0C22FE16648007D848E /* LicenseTestMocks.swift in Sources */,
 				AA0C8B000000000000000005 /* UsageStatsTestable.swift in Sources */,
 				5FA004000000000000000007 /* UsageStatsMessageTests.swift in Sources */,
 				5F1CE0010000000000000002 /* Clock.swift in Sources */,
@@ -1879,7 +1891,6 @@
 				5F1CE0010000000000000006 /* LicenseAPI.swift in Sources */,
 				5F1CE0010000000000000008 /* LicenseManager.swift in Sources */,
 				5F1CE0010000000000000009 /* LicenseState.swift in Sources */,
-				5F1CE001000000000000000A /* LicenseManagerTests.swift in Sources */,
 				5FCEFA110000000000000001 /* PreferencesMigrations.swift in Sources */,
 				5FCEFA110000000000000021 /* PreferencesMigrationsTests.swift in Sources */,
 				5F1CE001000000000000000B /* RemoteLicenseClient.swift in Sources */,
@@ -2703,6 +2714,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		0999D0B82FE0BAF9007D848E /* XCLocalSwiftPackageReference "lib/KyNorthstar/free-alt-tab-macos-tools" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "lib/KyNorthstar/free-alt-tab-macos-tools";
+		};
 		5FDF9EA42FB3575B00703843 /* XCLocalSwiftPackageReference "vendor/Sparkle" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = vendor/Sparkle;
@@ -2718,6 +2733,15 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0999D0B92FE0BAF9007D848E /* FreeAltTabTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FreeAltTabTools;
+		};
+		0999D0BD2FE16401007D848E /* FreeAltTabTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0999D0B82FE0BAF9007D848E /* XCLocalSwiftPackageReference "lib/KyNorthstar/free-alt-tab-macos-tools" */;
+			productName = FreeAltTabTools;
+		};
 		5FDF9EA52FB3575B00703843 /* Sparkle */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Sparkle;

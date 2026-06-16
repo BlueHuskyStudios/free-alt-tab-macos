@@ -1,4 +1,12 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Cocoa
+
+// On this fork, each `.show()` call is wrapped in a string literal rather than deleted or commented-out.
+// This suppresses the popups while keeping lwouis' exact line in place, so future upstream edits get patched directly into the printed text instead of producing a merge conflict.
+// Logging (rather than a bare no-op) also shows devs any time the codebase tries to show a popup.
 
 /// UI-side receiver of `ProPromptAction`s emitted by `ProTransitionManager`. Owns the mapping
 /// from abstract prompt-action → concrete Day-X window / popover class. Subscribing here is what
@@ -11,22 +19,40 @@ class ProPromptHost {
     func dispatch(_ action: ProPromptAction) {
         switch action {
         case .showWelcome:
+            print("""
             Day1WelcomeLetterWindow.show()
+            """)
         case .showDay4Tour:
+            print("""
             Day4TourPopover.show()
+            """)
         case .showDay12HeadsUp:
+            print("""
             Day12HeadsUpPopover.show()
+            """)
             Menubar.menubarIconCallback(nil)
         case .showDay15Proactive:
+            print("""
             Day15ProactiveWindow.show()
+            """)
         case .showDay15FullUpgrade(let reason):
+            print("""
+            \(reason):
             Day15FullUpgradeWindow.show(for: reason)
+            """)
         case .showDay15HardGatePopover(let reason):
+            print("""
+            \(reason):
             Day15HardGatePopover.show(for: reason)
+            """)
         case .showDay21Reminder:
+            print("""
             Day21ReminderPopover.show()
+            """)
         case .showDay35Final:
+            print("""
             Day35FinalWindow.show()
+            """)
         case .dismissAllProWindows:
             Day1WelcomeLetterWindow.shared?.close()
             Day15FullUpgradeWindow.shared?.close()

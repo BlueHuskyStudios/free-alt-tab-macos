@@ -1,4 +1,9 @@
+// Starting 2026-06-11, Ky forked the original repo to make this one.
+// The details of changes to this file (and all other files in this repository), including when the changes were made, can be found in the Git metadata of this repository.
+// If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
+
 import Foundation
+import FreeAltTabTools
 
 class LicenseManager {
     static let keychainService = "\(App.bundleIdentifier).license"
@@ -27,6 +32,7 @@ class LicenseManager {
     /// When a Pro variant needs a cutoff, add: "variant_slug": "X.Y.Z".
     static let versionLimitedVariants: [String: String] = [:]
 
+    var shim = LicenseManagerShim()
     let clock: Clock
     let keychain: Keychain
     let api: LicenseAPI
@@ -48,15 +54,23 @@ class LicenseManager {
     /// can drive activation without side effects.
     var onBeforeProUnlock: () -> Void = { }
 
-    private(set) var state: LicenseState = .trialExpired {
-        didSet { onStateChanged?(state) }
+    private(set) var state: LicenseState {
+        get {
+            .init(userChosenLicenseState)
+        }
+        set(state) {
+            let userChosenLicenseStateEquivalent = UserChosenLicenseState(state)
+            if userChosenLicenseStateEquivalent != userChosenLicenseState {
+                userChosenLicenseState = userChosenLicenseStateEquivalent
+            }
+            onStateChanged?(state)
+        }
     }
 
     var customerEmail: String? { defaults.string(forKey: Self.customerEmailKey) }
 
     var isLifetimeVariant: Bool {
-        guard let variant = keychain.value(account: Self.keychainVariantAccount) else { return false }
-        return Self.lifetimeVariants.contains(variant)
+        shim.isLifetimeVariant
     }
 
     var isProAvailable: Bool { state.isProAvailable }
@@ -90,7 +104,6 @@ class LicenseManager {
 
     func initialize() {
         state = computeState()
-        scheduleAsyncRevalidationIfNeeded()
     }
 
     /// Trial `daysRemaining` is baked into the `state` enum, so it stays frozen until something
@@ -100,6 +113,25 @@ class LicenseManager {
         let newState = computeState()
         if newState != state { state = newState }
     }
+
+
+    var userChosenLicenseState: UserChosenLicenseState {
+        get {
+            shim.userChosenLicenseState
+        }
+        
+        set {
+            onBeforeProUnlock()
+            shim.userChosenLicenseState = newValue
+            refreshState()                          // recompute `state` + notify observers
+            
+            let stateEquivalent = LicenseState(newValue)
+            if stateEquivalent != state {
+                state = stateEquivalent
+            }
+        }
+    }
+
 
     func activate(_ licenseKey: String, completion: @escaping (Result<Void, Error>) -> Void) {
         api.activate(licenseKey) { [weak self] result in
@@ -174,19 +206,7 @@ class LicenseManager {
     }
 
     func computeState() -> LicenseState {
-        if keychain.value(account: Self.keychainKeyAccount) != nil {
-            let lastValidationResult = defaults.bool(forKey: "lastValidationResult")
-            guard lastValidationResult else { return .trialExpired }
-            if let variant = keychain.value(account: Self.keychainVariantAccount),
-               let maxVersion = Self.versionLimitedVariants[variant] {
-                let currentVersion = currentAppVersion()
-                if currentVersion.compare(maxVersion, options: .numeric) == .orderedDescending {
-                    return .proExpired
-                }
-            }
-            return .pro
-        }
-        return computeTrialState()
+        return .init(shim.userChosenLicenseState)
     }
 
     private func computeTrialState() -> LicenseState {
