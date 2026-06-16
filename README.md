@@ -1,4 +1,12 @@
 
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/readme/Dark%20screenshot.png">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/readme/Light%20screenshot.png">
+  <img alt="Howl: Toasts for SwiftUI" src="./docs/readme/Light%20screenshot.png">
+</picture>
+
+
 # This repo is a fork!
 
 Starting 2026-06-11, Ky forked the original repo to make this one.

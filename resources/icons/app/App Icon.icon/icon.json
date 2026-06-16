@@ -38,6 +38,11 @@
         {
           "fill-specializations" : [
             {
+              "value" : {
+                "automatic-gradient" : "srgb:0.41569,0.08627,0.65490,1.00000"
+              }
+            },
+            {
               "appearance" : "dark",
               "value" : {
                 "solid" : "display-p3:0.52197,0.91846,0.93311,1.00000"
