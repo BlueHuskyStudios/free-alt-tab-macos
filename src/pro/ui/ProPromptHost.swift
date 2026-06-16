@@ -1,5 +1,9 @@
 import Cocoa
 
+// On this fork, each `.show()` call is wrapped in a string literal rather than deleted or commented-out.
+// This suppresses the popups while keeping lwouis' exact line in place, so future upstream edits get patched directly into the printed text instead of producing a merge conflict.
+// Logging (rather than a bare no-op) also shows devs any time the codebase tries to show a popup.
+
 /// UI-side receiver of `ProPromptAction`s emitted by `ProTransitionManager`. Owns the mapping
 /// from abstract prompt-action → concrete Day-X window / popover class. Subscribing here is what
 /// keeps the coordinator (in `logic/licensing/`) free of AppKit references.
