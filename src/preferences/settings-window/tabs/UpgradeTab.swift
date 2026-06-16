@@ -3,6 +3,7 @@
 // If you receive a version of this repository that is lacking the Git metadata, you may contact Ky and they will provide that metadata to you free of charge: FreeAltTab@KyNorthstar.me
 
 import Cocoa
+import FreeAltTabTools
 
 class UpgradeTab {
     private static var statusLabel: LightLabel!
@@ -17,9 +18,15 @@ class UpgradeTab {
     private static var isInitialized = false
 
     static func initTab() -> NSView {
-        let view = makeView()
+        let view: NSView
+        if #available(macOS 10.15, *) {
+            view = ProUpgradeView.nsView()
+        }
+        else {
+            view = makeView()
+            refreshStatus()
+        }
         isInitialized = true
-        refreshStatus()
         return view
     }
 

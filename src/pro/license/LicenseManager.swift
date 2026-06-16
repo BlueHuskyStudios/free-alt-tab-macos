@@ -103,6 +103,7 @@ class LicenseManager {
 
 
     func setLicenseState(_ newValue: UserChosenLicenseState) {
+        self.onBeforeProUnlock()
         shim.userChosenLicenseState = newValue
     }
 
